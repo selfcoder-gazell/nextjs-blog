@@ -1,4 +1,38 @@
+/* You can place the global CSS file anywhere and use any name. So let’s do the following:
+
+Create a top-level styles directory and a global.css file.
+Add the following CSS inside styles/global.css. This code 
+resets some styles and changes the color of the a tag: */
+
 html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -29,4 +63,4 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
+} */
