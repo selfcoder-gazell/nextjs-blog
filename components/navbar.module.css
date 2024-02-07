@@ -9,6 +9,9 @@
   margin-right: 10px; /* Adjust spacing between menu items */
 }
 
+.icon {
+  color: red;
+}
 
 /* .hexagon-item {
     cursor: pointer;

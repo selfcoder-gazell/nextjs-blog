@@ -14,6 +14,8 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Navbar from '/components/navbar.js';
+
 
 const name = 'Kveta Mooney';
 export const siteTitle = 'Next.js Sample Website';
@@ -68,6 +70,7 @@ export default function Layout({ children, home }) {
                 {name}
               </Link>
             </h2>
+            <Navbar />
           </>
         )}
       </header>

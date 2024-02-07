@@ -3,15 +3,15 @@ import Head from "next/head";
 import Script from "next/script";
 import Layout from "../../components/layout";
 
-export default function About() {
+export default function Blog() {
     return (
         <Layout>
         
         <Head>
-            <title>About me</title>
+            <title>Blog</title>
         </Head>
         <h2>
-              About
+              Blog
             </h2>
         
         
