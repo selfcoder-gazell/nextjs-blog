@@ -12,8 +12,27 @@
 .icon {
   color: red;
 }
+.hex-content .icon {
+  display: block;
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 11px; }
+  
+ .hex-content .title {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase; }
 
-/* .hexagon-item {
+  .hexagon-item:hover .hex-content svg {
+      -webkit-transform: scale(0.97);
+      -moz-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+      -o-transform: scale(0.97);
+      transform: scale(0.97); }
+.hexagon-item {
     cursor: pointer;
     width: 200px;
     height: 173.20508px;
@@ -180,4 +199,4 @@
       -ms-transform: rotate(30deg) translate(87px, -80px);
       -o-transform: rotate(30deg) translate(87px, -80px);
       transform: rotate(30deg) translate(87px, -80px);
-  } */
+  }

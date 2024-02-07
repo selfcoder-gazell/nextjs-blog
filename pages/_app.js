@@ -17,7 +17,6 @@ import "../styles/global.css"
 //If you already have one, you can modify it so that 
 //it includes the extra bits you need.
 
-
 import { config } from '@fortawesome/fontawesome-svg-core'
 
 //Next.js allows you to import CSS directly in .js files. It handles 
@@ -27,7 +26,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 //Font Awesome core SVG library will not try and insert <style> elements into the <head> of the page. Next.js blocks this from happening anyway so you might as well not even try.
 config.autoAddCss = false
 
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;
-  }
+  };
