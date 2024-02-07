@@ -6,7 +6,6 @@ and you may even use utility classes in your global.css file.
 Utility classes refer to an approach of writing CSS selectors 
 rather than a method (e.g. global styles, CSS modules, Sass, etc).  */
 
-
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;

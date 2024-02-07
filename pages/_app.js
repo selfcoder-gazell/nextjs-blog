@@ -8,7 +8,7 @@
 //Finally, import the CSS file inside the pages/_app.js file you've created earlier on:
 import "../styles/global.css"
 // Any styles imported in _app.js will be applied globally, to all pages of the application.
-// i can import global.css only into the pages/_app.js file ONLY
+// i can import global.css into the pages/_app.js file ONLY
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;
   }

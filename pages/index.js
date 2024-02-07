@@ -5,6 +5,9 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+//import Link component to be able to Link to another page maybe ?? not SURE
+import Link from "next/link";
+import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
@@ -19,6 +22,15 @@ export default function Home() {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
+      
+      <div>
+        <Navbar />
+        <main>
+          {/* Main content of the home page */}
+        </main>
+      </div>
+      <Link href="/posts/first-post">To First-post</Link>
+
     </Layout>
   );
 }

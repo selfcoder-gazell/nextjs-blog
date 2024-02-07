@@ -18,6 +18,7 @@ import Link from 'next/link';
 const name = 'Kveta Mooney';
 export const siteTitle = 'Next.js Sample Website';
 
+//the component children and home are rendered in this function Layout
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
@@ -41,20 +42,21 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/image/profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt=""
+              alt="profileimage"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
-        ) : (
+        ) 
+        : (
           <>
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/image/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
