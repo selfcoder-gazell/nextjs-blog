@@ -2,14 +2,30 @@
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-around; /* Adjust as needed */
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Adjust as needed */
+}
+.menu {
+  margin: 10px;
 }
 
 .menu li {
   margin-right: 10px; /* Adjust spacing between menu items */
 }
 
-.icon {
+/* MyComponent.module.css */
+.defaultIcon {
+  cursor: pointer;
+  transition: fill 0.3s ease; /* Smooth transition for color change */
+}
+
+.defaultIcon:hover {
+   /* Change color on hover */
+  filter: brightness(199%); /* Increase brightness on hover */
+}
+
+
+/* .icon {
   color: red;
 }
 .hex-content .icon {
@@ -199,4 +215,4 @@
       -ms-transform: rotate(30deg) translate(87px, -80px);
       -o-transform: rotate(30deg) translate(87px, -80px);
       transform: rotate(30deg) translate(87px, -80px);
-  }
+  } */

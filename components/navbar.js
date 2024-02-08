@@ -1,46 +1,150 @@
 // components/Navbar.js
 import React from 'react';
+import { useState } from 'react';
+//import Lik component 
 import Link from 'next/link';
+//import CSS module for styling
 import styles from './navbar.module.css';
 import utilStyles from '../styles/utils.module.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-regular-svg-icons';
 
-
-
 import { FontAwesomeIcon } from '@fortawesome/fontawesome-svg-core';
 
 //importing icons for my menu nav bar
 import { faUniversalAccess } from '@fortawesome/free-regular-svg-icons';
-//icon imported 
 import { faBullseye } from '@fortawesome/free-regular-svg-icons';
-//icon imported
 import { faBraille } from '@fortawesome/free-regular-svg-icons';
-//resume icon imported
 import { faIdBadge } from '@fortawesome/free-regular-svg-icons';
-//works icon imported
 import { faLifeRing } from '@fortawesome/free-regular-svg-icons';
-//testimonials icon imported
 import { faClipboard } from '@fortawesome/free-regular-svg-icons';
-//contact icon imported
 import { faMapSigns } from '@fortawesome/free-regular-svg-icons';
 
 
 const Navbar = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  }
   return (
     <nav>
+      
       <ul className={styles.menu}>
-        <Link href="/"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">Home</text></svg></Link>
-          <Link href="/about/about"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">About</text></svg></Link>
-          <Link href="/projects/project"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">Projects</text></svg></Link>
-          <Link href="/cv/cv"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">CV</text></svg></Link>
-          <Link href="/contact/contact"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">Contact</text></svg></Link>
-          <Link href="/blog/blog"><svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white">Blog</text></svg></Link> 
-          <div className="container">
-
-    </div>
-      </ul>
+        <Link href="/">
+          <svg 
+        viewBox="0 0 173.20508075688772 200" 
+        height="200" 
+        width="174" 
+        version="1.1" 
+        xmlns="http://www.w3.org/2000/svg">
+          <path 
+          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+          className={clicked ? styles.clickedIcon : styles.defaultIcon}
+          onClick={handleClick}
+          fill="#1e2530"></path>
+          <text 
+          x="50%" 
+          y="50%" 
+          dominant-baseline="middle" 
+          text-anchor="middle" 
+          fill="white">HOME</text>
+          </svg></Link>
+          <Link href="/about/about">
+            <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              onClick={handleClick}
+              fill="#1e2530">
+                </path>
+                <text 
+                x="50%" 
+                y="50%" 
+                dominant-baseline="middle" 
+                text-anchor="middle" 
+                fill="white">ABOUT</text>
+                </svg></Link>
+          <Link href="/projects/project">
+            <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              onClick={handleClick}
+              fill="#1e2530">
+                </path>
+                <text 
+                x="50%" 
+                y="50%" 
+                dominant-baseline="middle" 
+                text-anchor="middle" 
+                fill="white">PROJECTS</text>
+                </svg></Link>
+          <Link href="/cv/cv">
+            <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              onClick={handleClick}
+              fill="#1e2530"></path>
+              <text 
+              x="50%" 
+              y="50%" 
+              dominant-baseline="middle" 
+              text-anchor="middle" 
+              fill="white">CV</text></svg></Link>
+          <Link href="/contact/contact">
+            <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+              <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              onClick={handleClick}
+              fill="#1e2530"></path>
+              <text 
+              x="50%" 
+              y="50%" 
+              dominant-baseline="middle" 
+              text-anchor="middle" 
+              fill="white">CONTACT</text></svg></Link>
+          <Link href="/blog/blog">
+            <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+              <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              onClick={handleClick}
+              fill="#1e2530">
+                </path>
+                <text 
+                x="50%" 
+                y="50%" 
+                dominant-baseline="middle" 
+                text-anchor="middle" 
+                fill="white">BLOG</text></svg></Link> 
+    </ul>
       
     </nav>
     
