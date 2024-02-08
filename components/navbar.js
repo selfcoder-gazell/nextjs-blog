@@ -72,10 +72,10 @@ const Navbar = () => {
           </path>
           <FontAwesomeIcon
           icon={faUniversalAccess}
-          className='icon'
+          className="icon"
           />
           <text 
-          class="title"
+          className={styles.title}
           x="50%" 
           y="50%" 
           dominant-baseline="middle" 
@@ -103,7 +103,7 @@ const Navbar = () => {
           icon={faBullseye}
           />
                 <text 
-                class="title"
+                className={styles.title}
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
@@ -129,7 +129,7 @@ const Navbar = () => {
           icon={faLifeRing}
           />
                 <text 
-                class="title"
+                className={styles.title}
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
@@ -156,7 +156,7 @@ const Navbar = () => {
                />
 
               <text 
-              class="title"
+              className={styles.title}
               x="50%" 
               y="50%" 
               dominant-baseline="middle" 
@@ -179,7 +179,7 @@ const Navbar = () => {
           />
          
               <text 
-              class="title"
+              className={styles.title}
               x="50%" 
               y="50%" 
               dominant-baseline="middle" 
@@ -202,7 +202,7 @@ const Navbar = () => {
           icon={faBook}
           />
                 <text 
-                class="title"
+                className={styles.title}
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
