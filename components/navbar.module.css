@@ -20,8 +20,9 @@
 }
 
 .defaultIcon:hover {
+  fill: rgb(39, 3, 100);
    /* Change color on hover */
-  filter: brightness(199%); /* Increase brightness on hover */
+  filter: brightness(50%); /* Increase brightness on hover */
 }
 
 
