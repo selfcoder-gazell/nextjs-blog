@@ -1,25 +1,23 @@
-
+import Head from 'next/head';
+import Image from 'next/image';
 // import styles from "./layout.module.css";
-
-// export default function Layout({ children }) {
-//     return <div className={styles.container}>{children}</div>;
-//   }
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
+//import the Font Awesome core styles and config
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 //   Third, open components/layout.js and replace its 
 //   content with the following code, 
 //   changing Your Name to an actual name:
-
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import Navbar from '/components/navbar.js';
-
-
-const name = 'Kveta Mooney';
+const name = 'Květa Mooney';
 export const siteTitle = 'Next.js Sample Website';
 
+// export default function Layout({ children }) {
+//     return <div className={styles.container}>{children}</div>;
+//   }
 //the component children and home are rendered in this function Layout
 export default function Layout({ children, home }) {
   return (
@@ -70,7 +68,7 @@ export default function Layout({ children, home }) {
                 {name}
               </Link>
             </h2>
-            <Navbar />
+          
           </>
         )}
       </header>

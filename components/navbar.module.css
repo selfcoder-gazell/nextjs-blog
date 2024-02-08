@@ -16,19 +16,23 @@
 /* MyComponent.module.css */
 .defaultIcon {
   cursor: pointer;
-  transition: fill 0.3s ease; /* Smooth transition for color change */
+  transition: fill 0.5s ease; /* Smooth transition for color change */
 }
 
 .defaultIcon:hover {
   fill: rgb(39, 3, 100);
    /* Change color on hover */
-  filter: brightness(50%); /* Increase brightness on hover */
+  filter: brightness(90%); /* Increase brightness on hover */
 }
 
-
-/* .icon {
-  color: red;
+.icon {
+  display: block;
+  color: red; /* Example: change color to red */
+  font-size: 24px; /* Example: set font size to 24px */
+  /* Add other styles as needed */
 }
+
+/*
 .hex-content .icon {
   display: block;
   font-size: 36px;

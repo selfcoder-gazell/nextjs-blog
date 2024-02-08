@@ -1,5 +1,23 @@
 // components/Navbar.js
-import React from 'react';
+import React from 'react'; 
+//importing styles for letters
+import { Poppins, Roboto, Inter } from "next/font/google";
+const roboto = Roboto({
+  weight: "400",
+  style: "normal",
+  subsets: ["latin"],
+});
+const popins = Poppins ({
+  weight: "400",
+  style: "italic",
+  subsets: ["devanagari"],
+});
+const iter = Inter ({
+  weight: "400",
+  style: "normal",
+  subsets: ["latin"],
+});
+//importing useState React component 
 import { useState } from 'react';
 //import Lik component 
 import Link from 'next/link';
@@ -10,17 +28,23 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-regular-svg-icons';
 
-import { FontAwesomeIcon } from '@fortawesome/fontawesome-svg-core';
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
-//importing icons for my menu nav bar
-import { faUniversalAccess } from '@fortawesome/free-regular-svg-icons';
-import { faBullseye } from '@fortawesome/free-regular-svg-icons';
-import { faBraille } from '@fortawesome/free-regular-svg-icons';
-import { faIdBadge } from '@fortawesome/free-regular-svg-icons';
-import { faLifeRing } from '@fortawesome/free-regular-svg-icons';
-import { faClipboard } from '@fortawesome/free-regular-svg-icons';
-import { faMapSigns } from '@fortawesome/free-regular-svg-icons';
-
+//importing icons for my nav bar 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faUniversalAccess,
+  faBullseye,
+  faBraille,
+  faIdBadge,
+  faLifeRing,
+  faClipboard,
+  faMapSigns,
+  faAddressCard,
+  faBook
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -43,14 +67,25 @@ const Navbar = () => {
           d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
           className={clicked ? styles.clickedIcon : styles.defaultIcon}
           onClick={handleClick}
-          fill="#1e2530"></path>
+          fill="#1e2530">
+      
+          </path>
+          <FontAwesomeIcon
+          icon={faUniversalAccess}
+          className='icon'
+          />
           <text 
+          class="title"
           x="50%" 
           y="50%" 
           dominant-baseline="middle" 
           text-anchor="middle" 
-          fill="white">HOME</text>
+          fill="white">WELCOME</text>
+
+          
+
           </svg></Link>
+
           <Link href="/about/about">
             <svg 
             viewBox="0 0 173.20508075688772 200" 
@@ -64,12 +99,18 @@ const Navbar = () => {
               onClick={handleClick}
               fill="#1e2530">
                 </path>
+                <FontAwesomeIcon
+          icon={faBullseye}
+          />
                 <text 
+                class="title"
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
                 text-anchor="middle" 
                 fill="white">ABOUT</text>
+                
+            
                 </svg></Link>
           <Link href="/projects/project">
             <svg 
@@ -84,12 +125,17 @@ const Navbar = () => {
               onClick={handleClick}
               fill="#1e2530">
                 </path>
+                <FontAwesomeIcon
+          icon={faLifeRing}
+          />
                 <text 
+                class="title"
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
                 text-anchor="middle" 
                 fill="white">PROJECTS</text>
+
                 </svg></Link>
           <Link href="/cv/cv">
             <svg 
@@ -103,7 +149,14 @@ const Navbar = () => {
               className={clicked ? styles.clickedIcon : styles.defaultIcon}
               onClick={handleClick}
               fill="#1e2530"></path>
+              <span class="icon"></span>
+
+              <FontAwesomeIcon
+               icon={faIdBadge}
+               />
+
               <text 
+              class="title"
               x="50%" 
               y="50%" 
               dominant-baseline="middle" 
@@ -120,7 +173,13 @@ const Navbar = () => {
               className={clicked ? styles.clickedIcon : styles.defaultIcon}
               onClick={handleClick}
               fill="#1e2530"></path>
+
+                    <FontAwesomeIcon
+          icon={faMapSigns}
+          />
+         
               <text 
+              class="title"
               x="50%" 
               y="50%" 
               dominant-baseline="middle" 
@@ -138,7 +197,12 @@ const Navbar = () => {
               onClick={handleClick}
               fill="#1e2530">
                 </path>
+                
+                <FontAwesomeIcon
+          icon={faBook}
+          />
                 <text 
+                class="title"
                 x="50%" 
                 y="50%" 
                 dominant-baseline="middle" 
