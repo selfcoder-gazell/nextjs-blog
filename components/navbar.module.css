@@ -25,12 +25,7 @@
   filter: brightness(90%); /* Increase brightness on hover */
 }
 
-.icon {
-  display: block;
-  color: red; /* Example: change color to red */
-  font-size: 24px; /* Example: set font size to 24px */
-  /* Add other styles as needed */
-}
+
 .title:hover {
   font-size: x-large;
 }

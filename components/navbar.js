@@ -149,7 +149,7 @@ const Navbar = () => {
               className={clicked ? styles.clickedIcon : styles.defaultIcon}
               onClick={handleClick}
               fill="#1e2530"></path>
-              <span class="icon"></span>
+        
 
               <FontAwesomeIcon
                icon={faIdBadge}
@@ -209,7 +209,7 @@ const Navbar = () => {
                 text-anchor="middle" 
                 fill="white">BLOG</text></svg></Link> 
     </ul>
-      
+    
     </nav>
     
   );
