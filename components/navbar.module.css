@@ -1,5 +1,5 @@
 .menu {
-  list-style-type: none;
+  /* list-style-type: none; */
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -14,23 +14,30 @@
 }
 
 /* MyComponent.module.css */
+
 .defaultIcon {
   cursor: pointer;
   transition: fill 0.5s ease; /* Smooth transition for color change */
-}
-
-.defaultIcon:hover {
-  fill: rgb(125,0,125);
+  fill: rgb(37, 38, 37);
    /* Change color on hover */
-  filter: brightness(90%); /* Increase brightness on hover */
+   /* Increase brightness on hover */
 }
 
 .icon {
-  display: block;
-  color: red; /* Example: change color to red */
-  font-size: 24px; /* Example: set font size to 24px */
+  color: rgb(14, 3, 57);
+}
+
+.icon:hover {
+  color: rgb(181, 10, 10); /* Example: change color to red */
+   /* Example: set font size to 24px */
+   /* Increase brightness on hover */
+   filter: brightness(90%);
   /* Add other styles as needed */
 }
+.clicked.icon {
+  color: rgb(125,0,125);
+}
+
 .title:hover {
   font-size: x-large;
 }

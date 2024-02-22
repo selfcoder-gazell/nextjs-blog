@@ -72,7 +72,7 @@ const Navbar = () => {
           </path>
           <FontAwesomeIcon
           icon={faUniversalAccess}
-          className="icon"
+          className={styles.icon}
           />
           <text 
           className={styles.title}
@@ -101,6 +101,7 @@ const Navbar = () => {
                 </path>
                 <FontAwesomeIcon
           icon={faBullseye}
+          className={styles.icon}
           />
                 <text 
                 className={styles.title}
@@ -127,6 +128,7 @@ const Navbar = () => {
                 </path>
                 <FontAwesomeIcon
           icon={faLifeRing}
+          className={styles.icon}
           />
                 <text 
                 className={styles.title}
@@ -153,6 +155,7 @@ const Navbar = () => {
 
               <FontAwesomeIcon
                icon={faIdBadge}
+               className={styles.icon}
                />
 
               <text 
@@ -176,6 +179,7 @@ const Navbar = () => {
 
                     <FontAwesomeIcon
           icon={faMapSigns}
+          className={styles.icon}
           />
          
               <text 
@@ -200,6 +204,7 @@ const Navbar = () => {
                 
                 <FontAwesomeIcon
           icon={faBook}
+          className={styles.icon}
           />
                 <text 
                 className={styles.title}
