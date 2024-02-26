@@ -1,0 +1,64 @@
+
+
+/* styling for screens sizes larger than 600px */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.cvContainer {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color:aliceblue;
+  }
+  .top {
+    max-width: 2480px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(138, 185, 190);
+    border-radius: 0.5rem;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .borderCircle {
+    background-color: rgb(251, 245, 237);
+    border-radius: 50rem;
+  }
+  /* styling for screen width size is 600px or less */
+  @media screen and (max-width: 600px) {
+    .cvContainer {
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 20px;
+    }
+  
+    .sectionTitle {
+      font-size: 18px;
+    }
+}
+@media all {
+  div.page {
+    height: 210mm;
+    width: 297mm;
+  }
+}
+
+@media print {
+  div.page {
+    margin: 0;
+  }
+}

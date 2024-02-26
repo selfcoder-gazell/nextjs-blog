@@ -25,8 +25,6 @@ import Link from 'next/link';
 import styles from './navbar.module.css';
 import utilStyles from '../styles/utils.module.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-regular-svg-icons';
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
