@@ -13,7 +13,7 @@ config.autoAddCss = false;
 //   content with the following code, 
 //   changing Your Name to an actual name:
 const name = 'Květa Mooney';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Next.js Kveta M. page';
 
 // export default function Layout({ children }) {
 //     return <div className={styles.container}>{children}</div>;

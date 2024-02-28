@@ -4,7 +4,7 @@ import Script from "next/script";
 import Layout from "../../components/layout";
 import React from "react";
 import styles from "./cv.module.css";
-
+import utilStyles from '/styles/utils.module.css';
 import Image from "next/image";
 
 
@@ -16,10 +16,41 @@ export default function CV() {
             {/* no need to add viewport meta tag as Next.js automatically adds it into the <Head> section */}
             <title>CV - resume</title>
         </Head>
-        <div className={styles.container}>
+        <div className={styles.resumeCanvas}>
+        <div className={styles.gridParent}>
 
-        <div className={styles.page}>
-            <div className={styles.cvContainer}>
+<div className={styles.div1}> 
+<h3 className={styles.heading}>KVETA MOONEY</h3>
+    
+        <Image
+        priority
+        src="/image/profile.jpg"
+        className={utilStyles.borderCircle}
+        height={99}
+        width={99}
+        alt="profileimage"
+        />
+
+<h5 className={styles.h5}>SOFTWARE DEVELOPER</h5>
+    
+</div>
+
+
+<div className={styles.div2}> </div> 
+<div className={styles.div3}> 
+
+</div>
+
+
+</div>
+
+  </div>   
+{/*      
+
+        <div className={styles.cvContainer}>
+
+            <div className={styles.page}>
+            
                 <div className={styles.top}>
                 
                     <div className={styles.profileText}>
@@ -43,8 +74,8 @@ export default function CV() {
             </div>
             </div>
 
+       <div className={styles.cvContainer}>
         <div className={styles.page}>
-            <div className={styles.cvContainer}>
                 <div className={styles.top}>
                 
                     <div className={styles.profileText}>
@@ -66,9 +97,8 @@ export default function CV() {
                 </div>
             </div>
             </div>
-            </div>
-
-            </div>
+            </div> */}
+            
     </Layout>
     
     ); 
