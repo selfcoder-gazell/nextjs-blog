@@ -27,13 +27,13 @@ export default function CV() {
         priority
         src="/image/profile.jpg"
         className={utilStyles.borderCircle}
-        height={99}
-        width={99}
+        height={66}
+        width={66}
         alt="profileimage"
         />
-<span>
-    <h5 className={styles.h5}>SOFTWARE DEVELOPER</h5>
-    </span>
+
+<h5 className={styles.h5}>SOFTWARE DEVELOPER</h5>
+    
 
     
 </div>
@@ -55,13 +55,13 @@ export default function CV() {
 <div className={styles.rightContainer}>
 <h6 className={styles.centeredText}>TOOLS & TECHNOLOGIES</h6> 
 <ul className={styles.text}>
-    <li>Java Scrip</li>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>React</li>
+    <li> Java Script</li>
+    <li> HTML5</li>
+    <li> CSS3</li>
+    <li>React / Next.js </li>
     <li>Git / GitHub </li>
     <li>PostgreSQL</li>
-    <li>Figrma</li>
+    <li>Figma</li>
     <li>Slack</li>
     <li>VS Code</li>
 </ul>
@@ -94,7 +94,11 @@ export default function CV() {
 <p>Vision2learn</p>
 </div>
 </div>
-
+<div4 className={styles.div4}>
+    <p>github.com/selfcoder-gazell</p>
+    <p>kvetamooney@gmail.com</p>
+    <p>linkedin.com/kveta-moone/</p>
+    </div4>
 
 </div>
 
