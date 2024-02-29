@@ -65,6 +65,7 @@ export default function CV() {
     <li>Slack</li>
     <li>VS Code</li>
 </ul>
+
 <h6 className={styles.centeredText}>INDUSTRY KNOWLEDGE</h6> 
 <ul className={styles.text}>
     <li>UI/UX Design</li>
@@ -74,6 +75,23 @@ export default function CV() {
     <li>Pair Programming</li>
     <li>Scrum / Kanban </li>
 </ul>
+
+<h6 className={styles.centeredText}>PERSONAL SKILLS</h6> 
+<ul className={styles.text}>
+    <li>Self-motivated</li>
+    <li>Creative thinking</li>
+    <li>Team player</li>
+    <li>Collaboration</li>
+</ul>
+
+<h6 className={styles.centeredText}>EDUCATION</h6> 
+<p>School of Code</p>
+<ul className={styles.text}>
+    <li>Learned how to build web apps using an ample tech stack</li>
+    <li>Learned soft skills such as Critical Thinking, Presentation Skills, and Development</li>
+    <li>Developed an even greater desire to learn how to develop an application the </li>
+</ul>
+<p>Vision2learn</p>
 </div>
 </div>
 
