@@ -34,22 +34,27 @@
     background-color: aliceblue;
     }
     
-    .div1 { 
+    .topHeading { 
       grid-area: 1 / 1 / 2 / 6; 
-      background-color:rgb(176, 222, 227);
+      background-color:rgb(217,230,236);
       border-radius: 0.5rem;
       margin: 0.1rem;
     }
 
-    .div2 { 
+    .leftColumn { 
       grid-area: 2 / 1 / 6 / 5; 
-      background-color: rgb(43, 128, 137);
+      background-color: rgb(255,255,255);
       border-radius: 0.5rem;
+      
     }
 
-    .div3 { 
+    .leftContainer, .rightContainer {
+      margin: 0.3rem;
+    }
+
+    .rightColumn { 
       grid-area: 2 / 5 / 6 / 6; 
-      background-color: antiquewhite;
+      background-color: rgb(213,222,230);
       border-radius: 0.5rem;
     }
   
@@ -65,12 +70,35 @@
   font-size: 110%;
  }
 
-  @media screen and (max-width: 600px) {
-  .imgBx {
-    max-width: 10%;
-    max-height: 10%;
+.centeredText {
+text-align: center;
+margin-top: 0.5rem;
+}
+ 
+.text {
+  font-size: 80%;
+}
+
+  /* @media screen and (max-width: 768px) {
+  .gridParent {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-rows: repeat(8, 1fr);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .gridParent {
+    grid-template-columns: minmax(250px, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .gridParent {
+    grid-template-columns: minmax(250px, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+} */
 
 @media print {
   @page {
