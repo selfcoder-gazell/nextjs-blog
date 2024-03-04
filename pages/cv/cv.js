@@ -17,7 +17,7 @@ export default function CV() {
             <title>CV - resume</title>
         </Head>
         
-        <div className={styles.resumeCanvas}>
+        <div className={styles.resumeCanvasFirst}>
         <div className={styles.gridParent}>
 
 <div className={styles.topHeading}> 
