@@ -21,7 +21,7 @@ export default function CV() {
         <div className={styles.gridParent}>
 
 <div className={styles.topHeading}> 
-<h3 className={styles.heading}>KVETA MOONEY</h3>
+<h3 className={styles.heading}><strong>KVETA MOONEY</strong></h3>
     
         <Image
         priority
@@ -43,11 +43,44 @@ export default function CV() {
     <div className={styles.leftContainer}>
 
     <h6 className={styles.centeredText}>EXPERIENCE</h6> 
-    <p>Full time Bootcamper at School of Code</p>
+    <p><strong>Full time Bootcamper at School of Code</strong></p>
     <p>(Sep.2023-Present)</p>
-    <p className={styles.text}>We were selected from over 3000 candidates to join this 90-person, full-time, fully remote, 16-weeks fast-paced web development boot camp. We delved straight into full-stack modern and relevant technologies. I've learned how to collaborate in pair programming in a team following agile methodologies, along with exciting technical skills and many invaluable soft skills.</p>
-    <p>Final Project: Harvest Hub</p>
-    <p className={styles.text}>Harvest Hub is the ultimate web application designed to nurture our passion for all things green. The App helps people find information about how to grow vegetable and track their growth and expected harves date. </p>
+    <p className={styles.text}>We were selected from over 3000 candidates to join 
+    this 90-person, full-time, fully remote, 16-weeks fast-paced web 
+    development boot camp. We delved straight into full-stack modern and 
+    relevant technologies. I've learned how to collaborate in pair programming 
+    in a team following agile methodologies, along with exciting technical 
+    skills and many invaluable soft skills.</p>
+    <p><strong>Final Project: Harvest Hub</strong></p>
+    <p className={styles.text}>Harvest Hub is the ultimate web application 
+    designed to nurture our passion for all things green. The App helps people 
+    find information about how to grow vegetable and track their growth and 
+    expected harves date. </p>
+    <p><strong>Tech Stack & Planning Tools:</strong> React, Next.js, 
+    Supabase, Figma, VSC, Chakra, Vercel. Jest, Playwright, Tyescript, GitHub</p>
+    <p><strong>Team and duration</strong> - 6 developers for 4 weeks</p>
+    <p><strong>Mid Project: Memory Echo</strong></p>
+    <p>Meory Echo is an app that helps us all make our learning journey more effective - 
+    with predefined spaced repetion.</p>
+    <p><strong>Tech Stack & Planning Tools:</strong></p>
+    <p>Figma, VSC, React, CSS, HTML, JavaScript</p>
+    <p><strong>Team and duration</strong> - 6 developers for 4 weeks</p>
+    <p><strong>Field Engineer at Openreach </strong>(Apr 2019 - Jul 2020)</p>
+    <p>Used my analytical skills to solve any broadband issue customers had. 
+    I have learned a lot about how to deal with people from different walks of life. </p>
+    <p><strong>Kitchen Assistant </strong></p>
+    <p>(Oct 2017 - Apr 2019)</p>
+    <p>Working in a highly team-focused environment. 
+    Improved team relationships by organizing regular social events.</p>
+    <p><strong>Domiciliary carer</strong></p>
+    <p>(Nov 2016 - Jul 2017)</p>
+    <p>Improved the lives of elderly, long-term ill, and vulnerable 
+    people through emphaty and support while allowing for independence.</p>
+    <p><strong>Homemaker</strong></p>
+    <p>(Oct 2010 - Nov 2016)</p>
+    <p>Improved my organizational, time management, and analytical skills. 
+    Discovered my passion for creativity by upcycling old furniture. 
+    Motivated our children to be the best they can be. </p>
     </div> 
     </div>
 
@@ -85,14 +118,34 @@ export default function CV() {
 </ul>
 
 <h6 className={styles.centeredText}>EDUCATION</h6> 
-<p>School of Code</p>
+<p><strong>School of Code</strong></p>
 <ul className={styles.text}>
     <li>Learned how to build web apps using an ample tech stack</li>
     <li>Learned soft skills such as Critical Thinking, Presentation Skills, and Development</li>
     <li>Developed an even greater desire to learn how to develop an application the correct way</li>
 </ul>
-<p>Vision2learn (2023)</p>
+
+<h6 className={styles.centeredText}>EDUCATION</h6> 
+<p><strong>Vision2learn (2023)</strong></p>
 <p className={styles.text}>NCFE Level2 certificate in understanding coding</p>
+<p><strong>Thames Valley University (2011)</strong></p>
+<p>Certificate in Professional Computer Networking - Cisco</p>
+<h6 className={styles.centeredText}>LANGUAGES</h6> 
+<p>English - fluent (levelC1)</p>
+<p>Czech - native</p>
+<p>English - pasive</p>
+<h6 className={styles.centeredText}>LEISURE TIME</h6> 
+<p><strong>Regular Running </strong>- energizes me for another challenging 
+day and clears my mimd from daily hassles/worries. New ideas and 
+problem solutions come to my head while running. Each race I do is a 
+competition against my past self.</p>
+<p><strong>Cold water immersion </strong>gives me a sense of achievement 
+by overcoming the discomfort of exposure to cold water, teaching me 
+to feel comfortable being uncomfortable. 
+It also helps me to recover from my aching legs after a long run.</p>
+<p><strong>Mountain/hill walking </strong>helps me escape hectic/busy working/family 
+life and recharge my batteries. Problems seem small and irrelevant from the 
+top of a mountain giivng me a new/different perspective.</p>
 </div>
 </div>
 <div4 className={styles.div4}>
@@ -112,62 +165,7 @@ export default function CV() {
 
 </div>
 
-  </div>   
-{/*      
-
-        <div className={styles.cvContainer}>
-
-            <div className={styles.page}>
-            
-                <div className={styles.top}>
-                
-                    <div className={styles.profileText}>
-                        <h3 className={styles.heading}>KVETA MOONEY</h3>
-                            <div className={styles.imgBx}>
-                                <div className={styles.box}>
-                                    <Image
-                                    priority
-                                    src="/image/profile.jpg"
-                                    className={styles.borderCircle}
-                                    height={144}
-                                    width={144}
-                                    alt="profileimage"
-                                    />
-
-            <h4>SOFTWARE DEVELOPER</h4>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-
-       <div className={styles.cvContainer}>
-        <div className={styles.page}>
-                <div className={styles.top}>
-                
-                    <div className={styles.profileText}>
-                        <h3 className={styles.heading}>KVETA MOONEY</h3>
-                            <div className={styles.imgBx}>
-                                <div className={styles.box}>
-                                    <Image
-                                    priority
-                                    src="/image/profile.jpg"
-                                    className={styles.borderCircle}
-                                    height={144}
-                                    width={144}
-                                    alt="profileimage"
-                                    />
-
-            <h4>SOFTWARE DEVELOPER</h4>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div> */}
-
-            
+  </div>        
             
     </Layout>
     

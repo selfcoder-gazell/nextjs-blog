@@ -14,7 +14,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     background-color:rgb(42, 76, 106);
   } */
-.resumeCavasFirst {
+.resumeCanvasFirst {
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0.3in;
@@ -81,21 +81,21 @@
  .h5 {
   /* display: flex;
   position: relative; */
-  font-family: "Montserrat", sans-serif;
+  font-family: inherit;
   font-weight: 70;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
  }
 
 .centeredText {
 font-family: "Montserrat", sans-serif;
 text-align: center;
 margin-top: 0.5rem;
-font-size: 1.2rem;
+font-size: 1.1rem;
 }
  
 .text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-family: inherit;
+  font-size: 1.1rem;
 }
 
 /* styling of second page - it has got differetn grid as no top heading  */
@@ -143,7 +143,7 @@ font-size: 1.2rem;
   @page {
     size: 8.5in 12in;
   }
-  .resumeCanvas {
+  .resumeCanvasFirst {
     height: 100%;
     width: 100%;
     position: fixed;
