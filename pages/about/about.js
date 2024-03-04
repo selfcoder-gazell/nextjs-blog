@@ -28,7 +28,8 @@ export default function About() {
               <br></br>
               I applied again and I got accepted in September 2023 - SUCCESS at last. 
               Along with 90 like-minded individuals selected from a pool of over 3000 applications, 
-              we delved straight into full-stack technologies.
+              we delved straight into full-stack technologies. 
+              We learned and worked in small groups of 4-6 during this 16 weeks long bootcamp.
               
               <p><br></br>It felt as i was being a traveller in a foreign country without a map. 
               Feelings of disorientation at first, but as I explored and learned, 
