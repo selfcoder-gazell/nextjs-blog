@@ -11,22 +11,12 @@ export default function About() {
             <title>About me</title>
         </Head>
         <h5>
-              <p>I dived into the world of web development out of blue. 
-              A friend suggested for me to take the leap in 2022.
-              I discarded his idea immediatelly. </p>
+              <p>Diving headfirst into the world of software development was a decision born out of curiosity and a nudge from a friend back in 2022.
+              I dismissed the idea, imagining a solitary existence glued to screens for endless hours - a prospect that felt isolating and disheartening.</p>
               <br></br>
               <p>
-              My idea of software developer was mainly about spending days/weeks without speaking to a soul in front of a screen(s).
-              That's SAD, right? LONELY...</p>
-              <p>
-              <br></br>
-              <p>
-              I started to explore the field of web development little bit more and guess what?
-              I was so wrong!! 
-              </p>
-                <br></br>
-              I am a social creature. 
-              I need to work with people I could call my second family.
+              But as I delved deeper intot he field, I discovered that I was wrong, soo.. wrong!
+              As a social creature, I craved connections and collaboration, seeking a work enviroment similar to a second family.
               </p>
          <br></br>
          <p>When I came across School of Code (FREE of charge) I could not belive my luck. 
