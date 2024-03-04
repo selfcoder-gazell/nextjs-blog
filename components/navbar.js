@@ -78,7 +78,7 @@ const Navbar = () => {
           y="50%" 
           dominant-baseline="middle" 
           text-anchor="middle" 
-          fill="white">WELCOME</text>
+          fill="white">WELCOME/HOME</text>
 
           
 
