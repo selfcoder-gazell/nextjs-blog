@@ -31,6 +31,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background-color: aliceblue;
+    font-family: "Montserrat", sans-serif;
     }
     
     .topHeading { 
@@ -53,8 +54,6 @@
       border-radius: 0.6rem;
     }
 
-    
-
     .leftContainer {
       margin-right: 0.6rem;
       margin-top: 1rem;
@@ -69,32 +68,56 @@
       grid-area: 2 / 4 / 6 / 6; 
       background-color: rgb(213,222,230);
       border-radius: 0.6rem;
-      
     }
   
 .contactList li {
   list-style-position:calc();
 }
  .heading {
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
  }
 
  .h5 {
   /* display: flex;
   position: relative; */
+  font-family: "Montserrat", sans-serif;
   font-weight: 70;
-  font-size: 100%;
+  font-size: 1.2rem;
  }
 
 .centeredText {
+font-family: "Montserrat", sans-serif;
 text-align: center;
 margin-top: 0.5rem;
+font-size: 1.2rem;
 }
  
 .text {
-  font-size: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
 }
 
+/* styling of second page - it has got differetn grid as no top heading  */
+.resumeCanvasSecond {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.3in;
+  width: 8.5in;
+  height: 12in;
+  background-color: rgb(250, 255, 255);
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.8);
+}
+.gridParent2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 0.6fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 6 / 4; }
+  .div2 { grid-area: 1 / 4 / 6 / 6; }
   /* @media screen and (max-width: 768px) {
   .gridParent {
     grid-template-columns: repeat(2, minmax(250px, 1fr));
