@@ -164,8 +164,20 @@ top of a mountain giivng me a new/different perspective.</p>
     </div4>
 
 </div>
+</div>  
 
-  </div>        
+  {/* <div className={styles.resumeCanvasFirst}>
+<div className={styles.gridParent2}>
+
+    <div className={styles.div1}></div>
+    <div className={styles.div2}></div>
+</div>
+
+
+  </div> */}
+    
+    
+         
             
     </Layout>
     
