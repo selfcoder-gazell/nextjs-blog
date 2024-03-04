@@ -89,15 +89,25 @@ export default function CV() {
 <ul className={styles.text}>
     <li>Learned how to build web apps using an ample tech stack</li>
     <li>Learned soft skills such as Critical Thinking, Presentation Skills, and Development</li>
-    <li>Developed an even greater desire to learn how to develop an application the </li>
+    <li>Developed an even greater desire to learn how to develop an application the correct way</li>
 </ul>
-<p>Vision2learn</p>
+<p>Vision2learn (2023)</p>
+<p className={styles.text}>NCFE Level2 certificate in understanding coding</p>
 </div>
 </div>
 <div4 className={styles.div4}>
+    {/* <ul className={styles.contactList}>
+        <li>github.com/selfcoder-gazell</li>
+        <li>kvetamooney@gmail.com</li>
+        <li>linkedin.com/kveta-mooney</li>
+    </ul> */}
+    <br></br>
+
     <p>github.com/selfcoder-gazell</p>
+    <br></br>
     <p>kvetamooney@gmail.com</p>
-    <p>linkedin.com/kveta-moone/</p>
+    <br></br>
+    <p>linkedin.com/kveta-mooney/</p>
     </div4>
 
 </div>
@@ -156,6 +166,8 @@ export default function CV() {
             </div>
             </div>
             </div> */}
+
+            
             
     </Layout>
     
