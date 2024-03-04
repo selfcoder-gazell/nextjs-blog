@@ -79,7 +79,7 @@ export default function CV() {
     <p><strong>Homemaker</strong></p>
     <p>(Oct 2010 - Nov 2016)</p>
     <p>Improved my organizational, time management, and analytical skills. 
-    Discovered my passion for creativity by upcycling old furniture. 
+        Discovered my passion for creativity by upcycling old furniture. 
     Motivated our children to be the best they can be. </p>
     </div> 
     </div>

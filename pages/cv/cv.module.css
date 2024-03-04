@@ -99,15 +99,8 @@ font-size: 1.1rem;
 }
 
 /* styling of second page - it has got differetn grid as no top heading  */
-.resumeCanvasSecond {
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0.3in;
-  width: 8.5in;
-  height: 12in;
-  background-color: rgb(250, 255, 255);
-  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.8);
-}
+
+
 .gridParent2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr) 0.6fr;
