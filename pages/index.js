@@ -17,9 +17,11 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Květa. I'm a software/web developer. </p>
         <p>
-          You just landed on my personal site. You can find more about my recent journey into tech in the ABOUT section. 
-          Feel free to print out/download my CV in the CV section and if you'd like to contact me click the CONTACT icon. 
-          There is no content in the PROJECTS & BLOG section currently as both are under construction. 
+        "You've just landed on my personal site. In the ABOUT section, 
+        you can find more about my recent journey into tech. 
+        Feel free to print out/download my resume in the CV section, 
+        and if you'd like to contact me, click the CONTACT icon. Currently, 
+        there is no content in the PROJECTS & BLOG section as both are under construction." 
            {/* you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.) */}
         </p>

@@ -28,7 +28,7 @@
 }
 
 .icon:hover {
-  color: rgb(181, 10, 10); /* Example: change color to red */
+  color: rgb(235, 125, 40); /* Example: change color to red */
    /* Example: set font size to 24px */
    /* Increase brightness on hover */
    filter: brightness(90%);

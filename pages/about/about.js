@@ -10,7 +10,7 @@ export default function About() {
         <Head>
             <title>About me</title>
         </Head>
-        <h5>
+        <div>
               <p>Diving headfirst into the world of software development was a decision born out of curiosity and a nudge from a friend back in 2022.
               I dismissed the idea, imagining a solitary existence glued to screens for endless hours - a prospect that felt isolating and disheartening.
               </p>
@@ -22,14 +22,14 @@ export default function About() {
          <br></br>
          <p>I have been lost in the ocean of information and the amount of coding languages I could choose from. 
             When I came across School of Code I could not believe my luck. 
-              My attempt to be accepted into the School of Code in January 2023 FAILED. 
+              My attempt to be accepted into the <Link href="https://www.schoolofcode.co.uk/">School of Code</Link> in January 2023 FAILED. 
               It is scary to change a career at any age and I felt exactly that.
               Fear of change, failure, shame ... ect. IMPOSTER SYNDROM written all over.</p>
               <br></br>
               I applied again and I got accepted in September 2023 - SUCCESS at last. 
               Along with 90 like-minded individuals selected from a pool of over 3000 applications, 
               we delved straight into full-stack technologies. 
-              We learned and worked in small groups of 4-6 during this 16 weeks long bootcamp.
+              We learned and worked in small groups of 4-6 during this intense 16 weeks long bootcamp.
               
               <p><br></br>It felt as i was being a traveller in a foreign country without a map. 
               Feelings of disorientation at first, but as I explored and learned, 
@@ -38,7 +38,7 @@ export default function About() {
                 <p>I am still finding my way .... but now I got a MAP :-)  </p>
 
 
-            </h5>
+            </div>
         </Layout>
     
     ); 

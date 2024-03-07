@@ -16,7 +16,9 @@ export default function CV() {
             {/* no need to add viewport meta tag as Next.js automatically adds it into the <Head> section */}
             <title>CV - resume</title>
         </Head>
-        
+        <div className={styles.containerBothPages}></div>
+
+
         <div className={styles.resumeCanvasFirst}>
         <div className={styles.gridParent}>
 
@@ -133,7 +135,7 @@ export default function CV() {
 <h6 className={styles.centeredText}>LANGUAGES</h6> 
 <p>English - fluent (levelC1)</p>
 <p>Czech - native</p>
-<p>English - pasive</p>
+<p>Slovak - pasive</p>
 <h6 className={styles.centeredText}>LEISURE TIME</h6> 
 <p><strong>Regular Running </strong>- energizes me for another challenging 
 day and clears my mimd from daily hassles/worries. New ideas and 
