@@ -2,6 +2,56 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import Layout from "../../components/layout";
+import React from 'react'; 
+import { useState } from 'react';
+import styles from './about.module.css';
+import { Poppins, Roboto, Inter } from "next/font/google";
+const roboto = Roboto({
+  weight: "400",
+  style: "normal",
+  subsets: ["latin"],
+});
+const popins = Poppins ({
+  weight: "400",
+  style: "italic",
+  subsets: ["devanagari"],
+});
+const iter = Inter ({
+  weight: "400",
+  style: "normal",
+  subsets: ["latin"],
+});
+
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
+//importing icons for my nav bar 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {
+  faUniversalAccess,
+  faBullseye,
+  faBraille,
+  faIdBadge,
+  faLifeRing,
+  faClipboard,
+  faMapSigns,
+  faAddressCard,
+  faBook
+} from "@fortawesome/free-solid-svg-icons";
+
+
+// const About = () => {
+//     const [clicked, setClicked] = useState(false);
+  
+//     const handleClick = () => {
+//       setClicked(!clicked);
+//     }
+//     return (
+    
+
 
 export default function About() {
     return (
@@ -10,6 +60,132 @@ export default function About() {
         <Head>
             <title>About me</title>
         </Head>
+<Link href="/about/about">
+    <div>
+   
+    <svg 
+            
+            viewBox="0 0 512 512" 
+            height="60" 
+            width="40" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+<path 
+                 d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
+            //      className={clicked ? styles.clickedIcon : styles.defaultIcon}
+            //   onClick={handleClick}
+              fill="#FF7900">
+
+               
+
+              </path>
+              
+
+            </svg>
+
+    </div>
+
+    <div>
+   
+    <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg"
+            >
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+            
+              fill="#1e2530">
+
+
+{/* <path 
+                 d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
+            //      className={clicked ? styles.clickedIcon : styles.defaultIcon}
+            //   onClick={handleClick}
+              fill="#FF7900">
+
+               
+
+              </path> */}
+
+
+              </path>
+
+
+             <text 
+               className={styles.title}
+               x="50%" 
+               y="79%" 
+               dominant-baseline="middle" 
+               text-anchor="middle" 
+               fill="white">ABOUT</text>
+
+           </svg>
+
+   </div>
+
+        {/* <svg 
+        
+                
+                viewBox="0 0 512 512"
+                height="60"
+                width="70"
+                xmlns="http://www.w3.org/2000/svg" 
+                
+                >
+                 
+                 <path 
+                 d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
+            //      className={clicked ? styles.clickedIcon : styles.defaultIcon}
+            //   onClick={handleClick}
+              fill="#1e2530"></path>
+
+<text 
+                className={styles.title}
+                x="50%" 
+                y="79%" 
+                dominant-baseline="middle" 
+                text-anchor="middle" 
+                fill="white">ABOUT</text>
+                </svg>
+
+<div className={styles.iconContainer}>
+              <svg 
+            viewBox="0 0 173.20508075688772 200" 
+            height="200" 
+            width="174" 
+            version="1.1" 
+            xmlns="http://www.w3.org/2000/svg"
+            >
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+            
+              fill="#1e2530"></path>
+                
+                <FontAwesomeIcon
+          icon={faBullseye}
+            className={styles.icon}
+          />
+</svg>
+              <text 
+                className={styles.title}
+                x="50%" 
+                y="79%" 
+                dominant-baseline="middle" 
+                text-anchor="middle" 
+                fill="white">ABOUT</text>
+                
+                 </svg> */}
+                 
+                 </Link>
+
+
         <div>
               <p>Diving headfirst into the world of software development was a decision born out of curiosity and a nudge from a friend back in 2022.
               I dismissed the idea, imagining a solitary existence glued to screens for endless hours - a prospect that felt isolating and disheartening.

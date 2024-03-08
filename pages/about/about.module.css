@@ -1,0 +1,36 @@
+.iconContainer {
+    /* list-style-type: none; */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+  } 
+
+.icon {
+    color: rgb(14, 3, 57);
+    
+  }
+  
+  .svg .icon:hover {
+    color: #FF7900; /* Example: change color to red */
+     /* Example: set font size to 24px */
+     /* Increase brightness on hover */
+     /* cursor: pointer; */
+     /* transition: fill 5s ease; */
+     filter: brightness(96%);
+    /* Add other styles as needed */
+  }
+  .clicked.icon {
+    color: rgb(125,0,125);
+  }
+  
+  /* .defaultIcon {
+  
+  } */
+  .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  .title:hover {
+    font-size: x-large;
+  }

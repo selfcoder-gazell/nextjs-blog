@@ -3,40 +3,34 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Adjust as needed */
-}
-.menu {
-  margin: 10px;
-}
-
-.menu li {
-  margin-right: 10px; /* Adjust spacing between menu items */
-}
-
+  justify-content: space-evenly; 
+} 
 /* MyComponent.module.css */
+/* .parentSvg {
 
-.defaultIcon {
-  cursor: pointer;
-  transition: fill 0.5s ease; /* Smooth transition for color change */
-  fill: rgb(37, 38, 37);
-   /* Change color on hover */
-   /* Increase brightness on hover */
-}
+} */
 
-.icon {
+.svg .icon {
   color: rgb(14, 3, 57);
+  
 }
 
 .icon:hover {
   color: rgb(235, 125, 40); /* Example: change color to red */
    /* Example: set font size to 24px */
    /* Increase brightness on hover */
-   filter: brightness(90%);
+   /* cursor: pointer; */
+   /* transition: fill 5s ease; */
+   filter: brightness(96%);
   /* Add other styles as needed */
 }
 .clicked.icon {
   color: rgb(125,0,125);
 }
+
+/* .defaultIcon {
+
+} */
 
 .title:hover {
   font-size: x-large;
