@@ -1,3 +1,7 @@
+.mainContainer {
+
+}
+
 .iconContainer {
     /* list-style-type: none; */
     padding: 0;
@@ -6,13 +10,13 @@
     justify-content: space-evenly; 
   } 
 
-.icon {
+/* .icon {
     color: rgb(14, 3, 57);
     
-  }
+  } */
   
-  .svg .icon:hover {
-    color: #FF7900; /* Example: change color to red */
+  .icon:hover {
+    color: #412F89;
      /* Example: set font size to 24px */
      /* Increase brightness on hover */
      /* cursor: pointer; */
@@ -20,9 +24,10 @@
      filter: brightness(96%);
     /* Add other styles as needed */
   }
-  .clicked.icon {
+  
+  /* .clicked.icon {
     color: rgb(125,0,125);
-  }
+  } */
   
   /* .defaultIcon {
   

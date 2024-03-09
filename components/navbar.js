@@ -74,6 +74,10 @@ const Navbar = () => {
           <FontAwesomeIcon
           icon={faUniversalAccess}
           className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
         
           />
           <text 
@@ -153,6 +157,10 @@ const Navbar = () => {
                 <FontAwesomeIcon
           icon={faBullseye}
           className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
                 <text 
                 className={styles.title}
@@ -184,6 +192,10 @@ const Navbar = () => {
                 <FontAwesomeIcon
           icon={faLifeRing}
           className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
                 <text 
                 className={styles.title}
@@ -212,6 +224,10 @@ const Navbar = () => {
               <FontAwesomeIcon
                icon={faIdBadge}
                className={styles.icon}
+               x="60"
+                y="70"
+              width="50"
+              height="50"
                />
 
               <text 
@@ -237,6 +253,10 @@ const Navbar = () => {
                     <FontAwesomeIcon
           icon={faMapSigns}
           className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
          
               <text 
@@ -269,6 +289,10 @@ const Navbar = () => {
                 <FontAwesomeIcon
           icon={faBook}
           className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
         
           />
                 <text 

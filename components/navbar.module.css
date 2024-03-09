@@ -14,16 +14,21 @@
   color: rgb(14, 3, 57);
   
 }
+/* .svg-element:hover {
+filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+} */
 
 .icon:hover {
   color: rgb(235, 125, 40); /* Example: change color to red */
    /* Example: set font size to 24px */
    /* Increase brightness on hover */
    /* cursor: pointer; */
-   /* transition: fill 5s ease; */
-   filter: brightness(96%);
+   
+   filter: brightness(98%);
+   filter: drop-shadow( 10px 10px 5px 12px (orange));
   /* Add other styles as needed */
 }
+
 .clicked.icon {
   color: rgb(125,0,125);
 }
@@ -33,7 +38,7 @@
 } */
 
 .title:hover {
-  font-size: x-large;
+  font-size: large;
 }
 /*
 .hex-content .icon {
