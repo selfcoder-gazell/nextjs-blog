@@ -25,6 +25,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
+          lang="en"
           name="description"
           content="Kveta Mooney personal website in Next.js"
         />

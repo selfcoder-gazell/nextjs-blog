@@ -58,23 +58,25 @@
     .leftColumn { 
       grid-area: 2 / 1 / 6 / 4; 
       background-color: rgb(255,255,255);
-      border-radius: 0.6rem;
+      border-radius: 0.5rem;
     }
 
     .leftContainer {
-      margin-right: 0.6rem;
-      margin-top: 1rem;
+      margin-right: 0.1rem;
+      margin-top: 0rem;
     }
 
     .rightContainer {
-      margin-left: 0.6rem;
-      margin-top: 1rem;
+      margin: 0;
+      margin-left: 0rem;
+      margin-top: 0rem;
+      padding: 0;
     }
 
     .rightColumn { 
       grid-area: 2 / 4 / 6 / 6; 
       background-color: rgb(213,222,230);
-      border-radius: 0.6rem;
+      border-radius: 0.5rem;
     }
   
 .contactList li {
@@ -85,19 +87,14 @@
   font-weight: lighter;
  }
 
- .h5 {
-  /* display: flex;
-  position: relative; */
-  font-family: inherit;
-  font-weight: 70;
-  font-size: 1.1rem;
- }
+
 
 .centeredText {
 font-family: "Montserrat", sans-serif;
 text-align: center;
 margin-top: 0.5rem;
-font-size: 1.1rem;
+font-size: 1rem;
+margin: 0 0 0 ;
 }
  
 .text {

@@ -9,26 +9,26 @@
     justify-content: space-evenly; 
   } 
 
-  #hexagonIcon {
+  .hexagonIcon {
     cursor: pointer;
     transition: filter 0.4s ease;
   }
   
-#hexagonIcon:hover {
+.hexagonIcon:hover {
  filter: drop-shadow (0 0 5px rgba(214, 38, 38, 0.5));
 }
 
-.icon {
-    color: rgb(14, 3, 57);
+.middleIcon {
+    color: rgb(115, 92, 206);
   }
   
-  .icon:hover {
-    color: #412F89;
+  .middleIcon:hover {
+    color: #180957;
      /* Example: set font size to 24px */
      /* Increase brightness on hover */
      /* cursor: pointer; */
      /* transition: fill 5s ease; */
-     filter: brightness(96%);
+     filter: brightness(120%);
   }
   
   /* .clicked.icon {

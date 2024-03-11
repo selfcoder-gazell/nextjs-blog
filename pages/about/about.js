@@ -33,7 +33,7 @@ export default function About() {
         <Head>
             <title>About me</title>
         </Head>
-<Link href="/about/about">
+<Link href="/">
     <div className={styles.mainContainer}>
     
 
@@ -42,14 +42,14 @@ export default function About() {
     <svg 
             
             viewBox="0 0 173.20508075688772 200" 
-            height="200" 
-            width="174" 
+            height="100" 
+            width="74" 
             version="1.1" 
             xmlns="http://www.w3.org/2000/svg"
             
             >
               <path 
-              id="hexagonIcon"
+              
               className={styles.hexagonIcon}
               d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
             
@@ -57,29 +57,34 @@ export default function About() {
 
               </path>
 
+           
+
              <text 
                className={styles.title}
                x="50%" 
-               y="79%" 
+               y="80%" 
+               
                dominant-baseline="middle" 
                text-anchor="middle" 
-               fill="white">ABOUT</text>
+               fill="white"> H O M E </text>
 
 <svg 
+            className={styles.middleIcon}
             viewBox="0 0 512 512" 
-            x="65"
-            y="70"
-            height="60" 
-            width="40" 
+            x="35"
+            y="50"
+            height="100" 
+            width="100" 
             version="1.1" 
             xmlns="http://www.w3.org/2000/svg">
 
 
-<path className={styles.icon}
+<path 
                  d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
             //      className={clicked ? styles.clickedIcon : styles.defaultIcon}
             //   onClick={handleClick}
-              fill="#F12">
+              fill="#F18">
+            
                
               </path>  
 
