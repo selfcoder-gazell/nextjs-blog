@@ -5,27 +5,49 @@
   flex-wrap: wrap;
   justify-content: space-evenly; 
 } 
+
+.hexagonIcon:hover,
+.hexagonIcon:hover svg {
+    transform: scale(1.1);
+    box-shadow: 
+    0 0 0 5px orange, /* Center glow */
+    0 -10px 0 5px orange, /* Top glow */
+    8.66px -5px 0 5px orange, /* Top-right glow */
+    8.66px 5px 0 5px orange, /* Bottom-right glow */
+    0 10px 0 5px orange, /* Bottom glow */
+    -8.66px 5px 0 5px orange, /* Bottom-left glow */
+    -8.66px -5px 0 5px orange; /* Top-left glow */
+}
+    /* -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
+    transform: scale(0.97);  */
+  
+  
 /* MyComponent.module.css */
 /* .parentSvg {
 
 } */
 
-.svg .icon {
+/* .svg .icon {
   color: rgb(14, 3, 57);
-  
-}
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+} */
+
 /* .svg-element:hover {
 filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
 } */
+.icon {
+color: rgb(125,0,125);
+}
 
 .icon:hover {
-  color: rgb(235, 125, 40); /* Example: change color to red */
-   /* Example: set font size to 24px */
+  color: rgb(235, 125, 40); 
+ 
    /* Increase brightness on hover */
    /* cursor: pointer; */
-   
-   filter: brightness(98%);
-   filter: drop-shadow( 10px 10px 5px 12px (orange));
+   filter: brightness(110%);
+   filter: drop-shadow( 20px 20px 20px 20px (orange));
   /* Add other styles as needed */
 }
 

@@ -59,6 +59,7 @@ const Navbar = () => {
       <ul className={styles.menu}>
         <Link href="/">
           <svg 
+        className={styles.hexagonIcon}
         viewBox="0 0 173.20508075688772 200" 
         height="200" 
         width="174" 
@@ -78,6 +79,7 @@ const Navbar = () => {
           y="70"
           width="50"
           height="50"
+        
         
           />
           <text 
@@ -138,6 +140,7 @@ const Navbar = () => {
 
 
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -178,6 +181,7 @@ const Navbar = () => {
 
 
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -209,6 +213,7 @@ const Navbar = () => {
 
           <Link href="/cv/cv">
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -240,6 +245,7 @@ const Navbar = () => {
 
           <Link href="/contact/contact">
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -269,7 +275,7 @@ const Navbar = () => {
 
           <Link href="/blog/blog">
             <svg 
-            className={styles.parentSvg}
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174"  
