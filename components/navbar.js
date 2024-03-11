@@ -74,7 +74,6 @@ const Navbar = () => {
           </path>
           <FontAwesomeIcon
           icon={faUniversalAccess}
-          className={styles.icon}
           x="60"
           y="70"
           width="50"
