@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; 
+  z-index: auto;
 } 
 /* .icon {
   color: rgb(125,0,125);
@@ -42,14 +43,10 @@
 }
   
 /* MyComponent.module.css */
-/* .parentSvg {
-
-} */
 
 .icon:hover {
   color: rgb(235, 125, 40);
    /* Increase brightness on hover */
-   /* cursor: pointer; */
    filter: brightness(115%);
 }
 
