@@ -214,6 +214,10 @@ top of a mountain giivng me a new/different perspective.</p>
 </div>
 
   </div>    
+  <div>
+            
+            <a href="/image/cv.pdf" download>Download my CV PDF</a>
+        </div>
             
     </Layout>
     
