@@ -12,13 +12,17 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Květa Mooney website</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Hello, I'm Květa. I'm a software developer.]</p>
+        <p>Hello, I'm Květa. I'm a software/web developer. </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        "You've just landed on my personal site. In the ABOUT section, 
+        you can find more about my recent journey into tech. 
+        Feel free to print out/download my resume in the CV section, 
+        and if you'd like to contact me, click the CONTACT icon. Currently, 
+        there is no content in the PROJECTS nor BLOG section as both are under construction." 
+        
         </p>
       </section>
       

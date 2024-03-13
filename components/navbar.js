@@ -28,10 +28,11 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
+config.autoAddCss = true;
 
 //importing icons for my nav bar 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import {
   faUniversalAccess,
   faBullseye,
@@ -53,9 +54,12 @@ const Navbar = () => {
   return (
     <nav>
       
+
+      
       <ul className={styles.menu}>
         <Link href="/">
           <svg 
+        className={styles.hexagonIcon}
         viewBox="0 0 173.20508075688772 200" 
         height="200" 
         width="174" 
@@ -70,49 +74,68 @@ const Navbar = () => {
           </path>
           <FontAwesomeIcon
           icon={faUniversalAccess}
-          className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
+        
+        
           />
           <text 
           className={styles.title}
           x="50%" 
-          y="50%" 
+          y="69%" 
           dominant-baseline="middle" 
           text-anchor="middle" 
-          fill="white">WELCOME</text>
+          fill="white">WELCOME/HOME</text>
 
           
 
           </svg></Link>
 
           <Link href="/about/about">
+
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
             version="1.1" 
             xmlns="http://www.w3.org/2000/svg">
               <path 
-              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
               className={clicked ? styles.clickedIcon : styles.defaultIcon}
               onClick={handleClick}
               fill="#1e2530">
+
+
+
+                
                 </path>
+                
                 <FontAwesomeIcon
           icon={faBullseye}
-          className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
                 <text 
                 className={styles.title}
                 x="50%" 
-                y="50%" 
+                y="69%" 
                 dominant-baseline="middle" 
                 text-anchor="middle" 
                 fill="white">ABOUT</text>
-                
             
                 </svg></Link>
+
           <Link href="/projects/project">
+            
+
+
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -126,19 +149,24 @@ const Navbar = () => {
                 </path>
                 <FontAwesomeIcon
           icon={faLifeRing}
-          className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
                 <text 
                 className={styles.title}
                 x="50%" 
-                y="50%" 
+                y="69%" 
                 dominant-baseline="middle" 
                 text-anchor="middle" 
                 fill="white">PROJECTS</text>
 
                 </svg></Link>
+
           <Link href="/cv/cv">
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -153,18 +181,23 @@ const Navbar = () => {
 
               <FontAwesomeIcon
                icon={faIdBadge}
-               className={styles.icon}
+               x="60"
+                y="70"
+              width="50"
+              height="50"
                />
 
               <text 
               className={styles.title}
               x="50%" 
-              y="50%" 
+              y="69%" 
               dominant-baseline="middle" 
               text-anchor="middle" 
               fill="white">CV</text></svg></Link>
+
           <Link href="/contact/contact">
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -177,40 +210,54 @@ const Navbar = () => {
 
                     <FontAwesomeIcon
           icon={faMapSigns}
-          className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
           />
          
               <text 
               className={styles.title}
               x="50%" 
-              y="50%" 
+              y="69%" 
               dominant-baseline="middle" 
               text-anchor="middle" 
               fill="white">CONTACT</text></svg></Link>
+
           <Link href="/blog/blog">
             <svg 
+            className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
-            width="174" 
+            width="174"  
             version="1.1" 
             xmlns="http://www.w3.org/2000/svg">
-              <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-              className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              onClick={handleClick}
+
+              <path 
+              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+              // className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              // onClick={handleClick}
               fill="#1e2530">
                 </path>
                 
+
                 <FontAwesomeIcon
           icon={faBook}
-          className={styles.icon}
+          x="60"
+          y="70"
+          width="50"
+          height="50"
+        
           />
                 <text 
                 className={styles.title}
                 x="50%" 
-                y="50%" 
+                y="69%" 
                 dominant-baseline="middle" 
                 text-anchor="middle" 
-                fill="white">BLOG</text></svg></Link> 
+                fill="white">BLOG</text>
+                </svg>
+                </Link> 
     </ul>
     
     </nav>

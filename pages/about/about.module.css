@@ -1,0 +1,47 @@
+/* .mainContainer {
+} */
+
+.iconContainer {
+    /* list-style-type: none; */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+  } 
+
+  .hexagonIcon {
+    cursor: pointer;
+    transition: filter 0.4s ease;
+  }
+  
+.hexagonIcon:hover {
+ filter: drop-shadow (0 0 5px rgba(214, 38, 38, 0.5));
+}
+
+.middleIcon {
+    color: rgb(115, 92, 206);
+  }
+  
+  .middleIcon:hover {
+    color: #180957;
+     /* Example: set font size to 24px */
+     /* Increase brightness on hover */
+     /* cursor: pointer; */
+     /* transition: fill 5s ease; */
+     filter: brightness(120%);
+  }
+  
+  /* .clicked.icon {
+    color: rgb(125,0,125);
+  } */
+  
+  /* .defaultIcon {
+  
+  } */
+  .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  .title:hover {
+    font-size: x-large;
+  }
