@@ -44,7 +44,7 @@ export default function CV() {
         {/* <div className={styles.containerBothPages}></div> */}
 
 
-        <div className={styles.resumeCanvas}>
+        {/* <div className={styles.resumeCanvas}>
         <div className={styles.gridParent}>
 
 <div className={styles.topHeading}> 
@@ -143,11 +143,7 @@ export default function CV() {
 </div>
 </div>
 <div4 className={styles.div4}>
-    {/* <ul className={styles.contactList}>
-        <li>github.com/selfcoder-gazell</li>
-        <li>kvetamooney@gmail.com</li>
-        <li>linkedin.com/kveta-mooney</li>
-    </ul> */}
+  
     <br></br>
 
     <p>github.com/selfcoder-gazell</p>
@@ -213,11 +209,16 @@ top of a mountain giivng me a new/different perspective.</p>
     </div>
 </div>
 
-  </div>    
+  </div>     */}
+
+  <section>
   <div>
             
             <a href="/image/cv.pdf" download>Download my CV PDF</a>
         </div>
+
+  </section>
+ 
             
     </Layout>
     
