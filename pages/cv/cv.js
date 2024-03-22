@@ -20,14 +20,14 @@ export default function CV() {
 
         
             
-            <iframe src="/image/cv.pdf" style={{ width: '100%', height: '192%', border: 'none' }}></iframe>
+            <iframe src="/image/cv.pdf" style={{ width: '100%', height: '200%', border: 'none' }}></iframe>
             
 
-        <div className={styles.centeredText}>
+        <div className={styles.centeredText}> 
         
         
             
-            <a href="/image/cv.pdf" download>Download this CV in PDF</a>
+            <a href="/image/cv.pdf" download>Download/Open this CV in PDF</a>
         </div>
             
         </div>

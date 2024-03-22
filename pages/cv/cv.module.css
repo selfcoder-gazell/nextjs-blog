@@ -1,24 +1,3 @@
-
-/* styling for screens sizes larger than 600px */
-/* .cvContainer {
-  width: 100%;
-  height: 100vh;
-  background-color: aqua;
-} */
-
-/* .cvContainer {
-    max-width: 210mm;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    background-color:rgb(42, 76, 106);
-  } */
-  /* .containerBothPages {
-    display: flex;
-    flex-direction: column;
-    height: 25in;
-    overflow-y: auto;
-  } */
   
 .resumeCanvas {
   margin: 0 auto;
@@ -85,8 +64,6 @@
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
  }
-
-
 
 .centeredText {
 font-family: "Montserrat", sans-serif;
