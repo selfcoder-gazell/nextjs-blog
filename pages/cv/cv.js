@@ -20,7 +20,7 @@ export default function CV() {
 
         
             
-            <iframe src="/image/cv.pdf" style={{ width: '100%', height: '200%', border: 'none' }}></iframe>
+            <iframe src="/image/cv.pdf" style={{ width: '100%', height: '98rem', border: 'none' }}></iframe>
             
 
         <div className={styles.centeredText}> 
