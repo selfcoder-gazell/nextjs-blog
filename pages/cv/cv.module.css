@@ -54,14 +54,12 @@
 .hexagonIcon:focus path,
 .hexagonIcon:active path {
     transition-duration: 400ms;
-    filter: brightness(110%);
+    filter: brightness(120%);
     transform: scale(1.1);
-    filter: 
-      /* center glow */
-      drop-shadow(0 0 3px #FFBF00)     
+    filter:      
 }
 
-.hexagonIcon:hover,
+.hexagonIcon:hover path,
 .hexagonIcon:focus path,
 .hexagonIcon:active path {
     filter: drop-shadow(0 0 3px #FFBF00)
