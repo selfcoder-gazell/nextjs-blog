@@ -21,7 +21,7 @@ export default function CV() {
             {/* no need to add viewport meta tag as Next.js automatically adds it into the <Head> section */}
             <title>CV - resume</title>
         </Head>
-        <div style={{ height: '100vh'}}>
+        <div>
         {/* <div style={{ height: '100vh', overflow:'auto' }}> */}
 
         <Link href="/image/cv.pdf">
@@ -63,7 +63,7 @@ xmlns="http://www.w3.org/2000/svg">
     </path>
     <FontAwesomeIcon
       icon={faIdBadge}
-      x="50"  
+      x="46"  
       y="60" 
       width="60"
       height="60"

@@ -6,23 +6,29 @@
     font-size: x-large;
   } 
   
- 
   .iconContainer {
     /* list-style-type: none; */
     padding: 0rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    overflow: visible;
+    justify-content:space-evenly;
+    overflow:visible;
+    z-index: 1;
   } 
 
-  .hexagonIcon path {
-    stroke: orange; /* Outline color */
-    stroke-width: 1; /* Outline thickness in pixels */
-    fill: #3d4148; /* Fill color */
+  .hexagonIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0rem;
+    margin:2rem;
     
   }
-
+  .hexagonIcon path {
+    stroke: orange; /* Outline color */
+    stroke-width: 3; /* Outline thickness in pixels */
+    fill: #3d4148; /* Fill color */
+  }
 
 .hexagonIcon:hover svg,
 .hexagonIcon:active,
@@ -31,7 +37,7 @@
     transform: scale(1.2);
     filter: 
     /* center glow */
-    drop-shadow(0 0 6px #FFBF00)
+    drop-shadow(0 0 5px #FFBF00)
 }
 
 .hexagonIcon2:hover svg, 
@@ -41,7 +47,7 @@
       transform: scale(1.2);
       filter: 
       /* center glow */
-      drop-shadow(0 0 4px #FFBF00)
+      drop-shadow(0 0 3px #FFBF00)
   }
 
 .hexagonIcon:hover path,
