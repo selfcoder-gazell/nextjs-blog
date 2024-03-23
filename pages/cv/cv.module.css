@@ -24,15 +24,19 @@
   }
 
 
-.hexagonIcon:hover svg {
+.hexagonIcon:hover svg,
+.hexagonIcon:active,
+.hexagonIcon:focus {
   transition-duration: 300ms;
     transform: scale(1.2);
     filter: 
     /* center glow */
-    drop-shadow(0 0 5px #FFBF00)
+    drop-shadow(0 0 6px #FFBF00)
 }
 
-.hexagonIcon2:hover svg {
+.hexagonIcon2:hover svg, 
+.hexagonIcon2:active svg,
+.hexagonIcon2:focus svg {
     transition-duration: 300ms;
       transform: scale(1.2);
       filter: 
@@ -40,11 +44,25 @@
       drop-shadow(0 0 4px #FFBF00)
   }
 
-.hexagonIcon:hover path {
+.hexagonIcon:hover path,
+.hexagonIcon:focus path,
+.hexagonIcon:active path {
+    transition-duration: 400ms;
     filter: brightness(110%);
     transform: scale(1.1);
     filter: 
       /* center glow */
-      drop-shadow(0 0 3px #FFBF00)
-      
+      drop-shadow(0 0 3px #FFBF00)     
 }
+
+.hexagonIcon:focus path,
+.hexagonIcon:active path {
+    filter: drop-shadow(0 0 3px #FFBF00)
+}
+
+#FontAwesomeIcon:hover
+#FontAwesomeIcon:focus
+#FontAwesomeIcon:active {
+    filter: drop-shadow(0 0 3px #FFBF00);
+}
+

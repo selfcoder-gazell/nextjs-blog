@@ -63,7 +63,7 @@ xmlns="http://www.w3.org/2000/svg">
     </path>
     <FontAwesomeIcon
       icon={faIdBadge}
-      x="46"  
+      x="50"  
       y="60" 
       width="60"
       height="60"
