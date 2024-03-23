@@ -4,7 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; 
-  z-index: index;
+  overflow: visible;
+  z-index: 1;
 } 
 /* .icon {
   color: rgb(125,0,125);
@@ -18,8 +19,8 @@
 
 .hexagonIcon:hover,
 .hexagonIcon:hover svg {
-  transition-duration: 700ms;
-    transform: scale(1.2);
+  transition-duration: 300ms;
+    transform: scale(1.1);
     filter: 
     /* center glow */
     drop-shadow(0 0 3px #FFBF00) 

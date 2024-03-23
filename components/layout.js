@@ -61,7 +61,7 @@ export default function Layout({ children, home }) {
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
-                alt=""
+                alt="Home"
               />
             </Link>
             <h2 className={utilStyles.headingLg}>

@@ -1,130 +1,50 @@
 .title {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
-}
-.title:hover {
-  font-size: x-large;
-} 
-
-
-
-
-/*BELOW STYLING DOES NOT APPLY TO THIS FILE BUT TO THE CV2.JS FILE */
-.resumeCanvas {
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0.3in;
-  width: 8.5in;
-  height: 12in;
-  background-color: rgb(250, 255, 255);
-  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.8);
-}
-
-  .gridParent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) 0.6fr;
-    grid-template-rows: repeat 0.8fr (5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: aliceblue;
-    font-family: "Montserrat", sans-serif;
-    }
-    
-    .topHeading { 
-      grid-area: 1 / 1 / 2 / 3; 
-      background-color:rgb(217,230,236);
-      border-radius: 0.6rem 0  0 0.6rem;
-    }
-
-    .div4 { 
-      grid-area: 1 / 3 / 2 / 6; 
-      /* background-color: rgb(217,230,236); */
-      background-color:rgb(217,230,236);
-      font-size: small;
-      border-radius: 0 0.6rem 0.6rem 0;
-    }
-
-    .leftColumn { 
-      grid-area: 2 / 1 / 6 / 4; 
-      background-color: rgb(255,255,255);
-      border-radius: 0.5rem;
-    }
-
-    .leftContainer {
-      margin-right: 0.1rem;
-      margin-top: 0rem;
-    }
-
-    .rightContainer {
-      margin: 0;
-      margin-left: 0rem;
-      margin-top: 0rem;
-      padding: 0;
-    }
-
-    .rightColumn { 
-      grid-area: 2 / 4 / 6 / 6; 
-      background-color: rgb(213,222,230);
-      border-radius: 0.5rem;
-    }
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  .title:hover {
+    font-size: x-large;
+  } 
   
-.contactList li {
-  list-style-position:calc();
-}
- .heading {
-  font-family: "Montserrat", sans-serif;
-  font-weight: lighter;
- }
-
-.centeredText {
-font-family: "Montserrat", sans-serif;
-text-align: center;
-margin-top: 1rem;
-font-size: 1rem;
-/* margin: 0 0 0 ; */
-}
  
-.text {
-  font-family: inherit;
-  font-size: 1.1rem;
+  .iconContainer {
+    /* list-style-type: none; */
+    padding: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    overflow: visible;
+  } 
+
+  .hexagonIcon path {
+    stroke: orange; /* Outline color */
+    stroke-width: 1; /* Outline thickness in pixels */
+    fill: #3d4148; /* Fill color */
+    
+  }
+
+
+.hexagonIcon:hover svg {
+  transition-duration: 300ms;
+    transform: scale(1.2);
+    filter: 
+    /* center glow */
+    drop-shadow(0 0 5px #FFBF00)
 }
 
-/* styling of second page - it has got differetn grid as no top heading  */
-
-
- .gridParent2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr) 0.6fr;
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-  
-  .div1 { 
-    grid-area: 1 / 1 / 6 / 4; 
-    background-color: rgb(255,255,255);
-    border-radius: 0.6rem;
+.hexagonIcon2:hover svg {
+    transition-duration: 300ms;
+      transform: scale(1.2);
+      filter: 
+      /* center glow */
+      drop-shadow(0 0 4px #FFBF00)
   }
 
-  .div2 { 
-    grid-area: 1 / 4 / 6 / 6; 
-    background-color: rgb(86, 119, 148);
-    border-radius: 0.6rem;
-  }
-
-@media print {
-  @page {
-    size: 8.5in 12in;
-  }
-  .resumeCanvasFirst {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-    padding: 0;
-    line-height: 20px;
-    /* page-break-after: always; */
-  }
+.hexagonIcon:hover path {
+    filter: brightness(110%);
+    transform: scale(1.1);
+    filter: 
+      /* center glow */
+      drop-shadow(0 0 3px #FFBF00)
+      
 }
