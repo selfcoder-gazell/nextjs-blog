@@ -47,7 +47,7 @@
       transform: scale(1.2);
       filter: 
       /* center glow */
-      drop-shadow(0 0 1px #FFBF00)
+      drop-shadow(0 0 3px #FFBF00)
   }
 
 .hexagonIcon:hover path,
