@@ -19,25 +19,25 @@
   .hexagonIcon {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0rem;
-    margin:2rem;
+    margin:0rem;
     
   }
   .hexagonIcon path {
     stroke: orange; /* Outline color */
-    stroke-width: 3; /* Outline thickness in pixels */
+    stroke-width: 1.5; /* Outline thickness in pixels */
     fill: #3d4148; /* Fill color */
   }
 
 .hexagonIcon:hover svg,
-.hexagonIcon:active,
-.hexagonIcon:focus {
+.hexagonIcon:active svg,
+.hexagonIcon:focus svg{
   transition-duration: 300ms;
     transform: scale(1.2);
     filter: 
     /* center glow */
-    drop-shadow(0 0 5px #FFBF00)
+    drop-shadow(0 0 2px #FFBF00)
 }
 
 .hexagonIcon2:hover svg, 
@@ -47,7 +47,7 @@
       transform: scale(1.2);
       filter: 
       /* center glow */
-      drop-shadow(0 0 3px #FFBF00)
+      drop-shadow(0 0 1px #FFBF00)
   }
 
 .hexagonIcon:hover path,
@@ -61,6 +61,7 @@
       drop-shadow(0 0 3px #FFBF00)     
 }
 
+.hexagonIcon:hover,
 .hexagonIcon:focus path,
 .hexagonIcon:active path {
     filter: drop-shadow(0 0 3px #FFBF00)
