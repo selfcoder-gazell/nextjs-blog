@@ -1,4 +1,15 @@
-  
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+.title:hover {
+  font-size: x-large;
+} 
+
+
+
+
+/*BELOW STYLING DOES NOT APPLY TO THIS FILE BUT TO THE CV2.JS FILE */
 .resumeCanvas {
   margin: 0 auto;
   box-sizing: border-box;

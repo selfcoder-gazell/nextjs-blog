@@ -24,11 +24,7 @@ export default function CV() {
         <div style={{ height: '100vh'}}>
         {/* <div style={{ height: '100vh', overflow:'auto' }}> */}
 
-        
-            
-            <iframe src="/image/cv.pdf" style={{ width: '100%', height: '100rem', border: 'none' }}></iframe>
-
-            <Link href="/image/cv.pdf">
+        <Link href="/image/cv.pdf">
             <svg 
             className={styles.hexagonIcon}
             viewBox="0 0 173.20508075688772 200" 
@@ -45,20 +41,25 @@ export default function CV() {
 
               <FontAwesomeIcon
                icon={faIdBadge}
-               x="60"
+               x="55"
                 y="70"
-              width="50"
-              height="50"
+              width="60"
+              height="60"
               color="gold"
+              
                />
 
               <text 
               className={styles.title}
               x="50%" 
-              y="69%" 
+              y="75%" 
               dominant-baseline="middle" 
               text-anchor="middle" 
-              fill="white">CV .pdf download</text></svg></Link>
+              fill="white">CV .pdf</text></svg></Link>
+
+        
+            
+            {/* <iframe src="/image/cv.pdf" style={{ width: '100%', height: '100rem', border: 'none' }}></iframe> */}
         
             
         </div>
