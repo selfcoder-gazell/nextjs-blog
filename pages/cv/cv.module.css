@@ -19,11 +19,17 @@
   .hexagonIcon {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0rem;
-    margin:0rem;
-    
+    justify-content: space-evenly;
+    overflow: visible;
   }
+
+  .hexagonIcon2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: visible;
+  }
+
   .hexagonIcon path {
     stroke: orange; /* Outline color */
     stroke-width: 1.5; /* Outline thickness in pixels */
