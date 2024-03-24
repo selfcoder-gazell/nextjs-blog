@@ -61,7 +61,8 @@
     transition-duration: 400ms;
     filter: brightness(120%);
     transform: scale(1.1);
-    filter:      
+    filter: 
+    drop-shadow(0 0 2px #FFBF00)     
 }
 
 .hexagonIcon:hover path,
