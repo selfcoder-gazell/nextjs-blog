@@ -68,8 +68,8 @@ const Navbar = () => {
 
           <path 
           d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-          className={clicked ? styles.clickedIcon : styles.defaultIcon}
-          onClick={handleClick}
+          // className={clicked ? styles.clickedIcon : styles.defaultIcon}
+          // onClick={handleClick}
           fill="#1e2530">
 
           </path>

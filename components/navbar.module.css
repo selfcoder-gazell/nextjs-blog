@@ -13,16 +13,19 @@
   } */
 
 .hexagonIcon path {
-  stroke: orange; /* Outline color */
-  stroke-width: 2; /* Outline thickness in pixels */
-  fill: #3d4148; /* Fill color */
+  stroke: orange;
+   /* Outline color */
+  stroke-width: 1.5; 
+  /* Outline thickness in pixels */
+  fill: #44474d; 
+  /* Fill color */
 }
 
 .hexagonIcon:hover svg {
   transition-duration: 200ms;
   transform: scale(1);
   filter: 
-  /* center glow */
+  
   drop-shadow(0 0 0.5rem #FFBF00)  
 }
 
@@ -55,7 +58,6 @@
 
 .icon:hover {
   color: rgb(235, 125, 40);
-   /* Increase brightness on hover */
    filter: brightness(115%);
    z-index: 2;
 }
