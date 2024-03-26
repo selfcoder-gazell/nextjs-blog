@@ -75,7 +75,7 @@ const Navbar = () => {
           </path>
 
           <svg 
-              className={styles.hexagonIcon2}
+              className={styles.hexagonIcon}
               x="12" 
               y="13" 
               width="159" 

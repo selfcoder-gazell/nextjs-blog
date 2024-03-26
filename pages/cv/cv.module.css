@@ -32,7 +32,7 @@
 
   .hexagonIcon path {
     stroke: orange; /* Outline color */
-    stroke-width: 1.5; /* Outline thickness in pixels */
+    stroke-width: 2; /* Outline thickness in pixels */
     fill: #3d4148; /* Fill color */
   }
 
