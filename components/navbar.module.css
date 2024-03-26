@@ -29,7 +29,9 @@
   drop-shadow(0 0 0.5rem #FFBF00)  
 }
 
-.hexagonIcon:hover {
+
+
+.hexagonIcon2:hover {
   transition-duration: 800ms;
     transform: scale(1.2);
     filter: 
@@ -47,7 +49,7 @@
     drop-shadow(-5px 9px 0.001rem #FD5E53) 
     /* bottom-right-glow */
     drop-shadow(5px 9px 0.001rem rgb(125,0,125));
-    z-index: 1;
+    z-index: 3;
 }
     /* clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); 
     box-shadow: 
