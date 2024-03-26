@@ -65,22 +65,37 @@ const Navbar = () => {
         width="174" 
         version="1.1" 
         xmlns="http://www.w3.org/2000/svg">
+
           <path 
           d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
           className={clicked ? styles.clickedIcon : styles.defaultIcon}
           onClick={handleClick}
           fill="#1e2530">
-      
+
           </path>
+
+          <svg 
+              className={styles.hexagonIcon2}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
+
           <FontAwesomeIcon
           icon={faUniversalAccess}
-          x="60"
-          y="70"
+          x="49"
+          y="60"
           width="50"
-          height="50"
-        
-        
-          />
+          height="50"/>
+</svg>
           <text 
           className={styles.title}
           x="50%" 
