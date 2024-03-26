@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content:space-evenly;
     overflow:visible;
-    z-index: 1;
+    z-index: 0;
   } 
 
   .hexagonIcon {
@@ -37,8 +37,8 @@
   }
 
 .hexagonIcon:hover svg,
-.hexagonIcon:active svg,
-.hexagonIcon:focus svg{
+.hexagonIcon:active svg
+{
   transition-duration: 300ms;
     transform: scale(1.2);
     filter:  
@@ -57,7 +57,7 @@
 
 .hexagonIcon:hover path,
 .hexagonIcon:focus path,
-.hexagonIcon:active path {
+/* .hexagonIcon:active path { */{
     transition-duration: 400ms;
     filter: brightness(120%);
     transform: scale(1.1);
@@ -66,15 +66,14 @@
 }
 
 .hexagonIcon:hover path,
-.hexagonIcon:focus path,
-.hexagonIcon:active path {
+.hexagonIcon:focus path {
     transition-duration: 400ms;
     filter: drop-shadow(0 0 3px #FFBF00)
 }
 
 #FontAwesomeIcon:hover
 #FontAwesomeIcon:focus
-#FontAwesomeIcon:active {
+ {
     filter: drop-shadow(0 0 3px #FFBF00);
 }
 
