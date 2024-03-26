@@ -56,7 +56,7 @@
   } */
 
 .hexagonIcon:hover path,
-.hexagonIcon:focus path,
+.hexagonIcon:focus path
 /* .hexagonIcon:active path { */{
     transition-duration: 400ms;
     filter: brightness(120%);
