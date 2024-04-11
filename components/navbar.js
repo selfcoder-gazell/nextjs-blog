@@ -146,8 +146,8 @@ const Navbar = () => {
                 
                 <FontAwesomeIcon
           icon={faBullseye}
-          x="60"
-          y="70"
+          x="49"
+          y="60"
           width="50"
           height="50"
           />
@@ -196,8 +196,8 @@ const Navbar = () => {
     </path>
                 <FontAwesomeIcon
           icon={faLifeRing}
-          x="60"
-          y="70"
+          x="49"
+          y="60"
           width="50"
           height="50"
           />
@@ -244,8 +244,8 @@ const Navbar = () => {
 
               <FontAwesomeIcon
                icon={faIdBadge}
-               x="60"
-                y="70"
+               x="49"
+                y="60"
               width="50"
               height="50"
                />
@@ -289,8 +289,8 @@ const Navbar = () => {
 
                     <FontAwesomeIcon
           icon={faMapSigns}
-          x="60"
-          y="70"
+          x="49"
+          y="60"
           width="50"
           height="50"
           />
@@ -338,8 +338,8 @@ const Navbar = () => {
 
                 <FontAwesomeIcon
           icon={faBook}
-          x="60"
-          y="70"
+          x="49"
+          y="60"
           width="50"
           height="50"/>
           </svg>
