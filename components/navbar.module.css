@@ -11,18 +11,27 @@
 /* .icon {
   color: rgb(125,0,125);
   } */
+  .hexagonIconOuter path{
+    stroke: orange;
+    stroke-width: 1.5; 
+    fill: #44474d; 
+  }
+  .hexagonIconOuter:hover,
+  .hexagonIconOuter:focus {
+    transition-duration: 800ms;
+      transform: scale(1.2);
+  }
 
 .hexagonIcon path {
   stroke: orange;
    /* Outline color */
-  stroke-width: 2; 
+  stroke-width: 0.4; 
   /* Outline thickness in pixels */
   fill: #44474d; 
   /* Fill color */
   /* filter:
   drop-shadow(0 0 0.5rem #FFBF00); */
 }
-
 
 
 .hexagonIcon:hover svg
@@ -38,7 +47,7 @@
 .hexagonIcon:focus {
     transition-duration: 800ms;
     transform: scale(1.2);
-    filter: drop-shadow(0 0 0.4rem #FFBF00);
+    filter: drop-shadow(0 0 0.25rem #FFBF00);
     z-index: 0;
 }
 

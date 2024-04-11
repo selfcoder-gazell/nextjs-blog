@@ -59,7 +59,7 @@ const Navbar = () => {
       <ul className={styles.menu}>
         <Link href="/">
           <svg 
-        className={styles.hexagonIcon}
+        className={styles.hexagonIconOuter}
         viewBox="0 0 173.20508075688772 200" 
         height="200" 
         width="174" 
@@ -94,7 +94,8 @@ const Navbar = () => {
           x="49"
           y="60"
           width="50"
-          height="50"/>
+          height="50"
+          />
 </svg>
           <text 
           className={styles.title}
@@ -111,7 +112,7 @@ const Navbar = () => {
           <Link href="/about/about">
 
             <svg 
-            className={styles.hexagonIcon}
+            className={styles.hexagonIconOuter}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -127,6 +128,21 @@ const Navbar = () => {
 
                 
                 </path>
+
+                <svg 
+              className={styles.hexagonIcon}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
                 
                 <FontAwesomeIcon
           icon={faBullseye}
@@ -135,6 +151,8 @@ const Navbar = () => {
           width="50"
           height="50"
           />
+          </svg>
+
                 <text 
                 className={styles.title}
                 x="50%" 
@@ -150,7 +168,7 @@ const Navbar = () => {
 
 
             <svg 
-            className={styles.hexagonIcon}
+            className={styles.hexagonIconOuter}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -162,6 +180,20 @@ const Navbar = () => {
               onClick={handleClick}
               fill="#1e2530">
                 </path>
+                <svg 
+              className={styles.hexagonIcon}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
                 <FontAwesomeIcon
           icon={faLifeRing}
           x="60"
@@ -169,6 +201,7 @@ const Navbar = () => {
           width="50"
           height="50"
           />
+          </svg>
                 <text 
                 className={styles.title}
                 x="50%" 
@@ -181,7 +214,7 @@ const Navbar = () => {
 
           <Link href="/cv/cv">
             <svg 
-            className={styles.hexagonIcon}
+            className={styles.hexagonIconOuter}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -192,6 +225,21 @@ const Navbar = () => {
               // className={clicked ? styles.clickedIcon : styles.defaultIcon}
               // onClick={handleClick}
               fill="#1e2530"></path>
+
+<svg 
+              className={styles.hexagonIcon}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
         
 
               <FontAwesomeIcon
@@ -201,6 +249,7 @@ const Navbar = () => {
               width="50"
               height="50"
                />
+               </svg>
 
               <text 
               className={styles.title}
@@ -212,7 +261,7 @@ const Navbar = () => {
 
           <Link href="/contact/contact">
             <svg 
-            className={styles.hexagonIcon}
+            className={styles.hexagonIconOuter}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174" 
@@ -223,6 +272,21 @@ const Navbar = () => {
               onClick={handleClick}
               fill="#1e2530"></path>
 
+<svg 
+              className={styles.hexagonIcon}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
+
                     <FontAwesomeIcon
           icon={faMapSigns}
           x="60"
@@ -230,6 +294,7 @@ const Navbar = () => {
           width="50"
           height="50"
           />
+          </svg>
          
               <text 
               className={styles.title}
@@ -241,7 +306,7 @@ const Navbar = () => {
 
           <Link href="/blog/blog">
             <svg 
-            className={styles.hexagonIcon}
+            className={styles.hexagonIconOuter}
             viewBox="0 0 173.20508075688772 200" 
             height="200" 
             width="174"  
@@ -254,6 +319,21 @@ const Navbar = () => {
               // onClick={handleClick}
               fill="#1e2530">
                 </path>
+
+                <svg 
+              className={styles.hexagonIcon}
+              x="12" 
+              y="13" 
+              width="159" 
+              height="183"
+              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+{/* <!-- Adjust width and height for the inner hexagon --> */}
+    <path 
+      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+    //   <!-- Adjust the path for the smaller hexagon -->
+    >
+
+    </path>
                 
 
                 <FontAwesomeIcon
@@ -261,9 +341,8 @@ const Navbar = () => {
           x="60"
           y="70"
           width="50"
-          height="50"
-        
-          />
+          height="50"/>
+          </svg>
                 <text 
                 className={styles.title}
                 x="50%" 
