@@ -8,10 +8,10 @@ export default function Contact() {
         <Layout>
         
         <Head>
-            <title>Get in touch</title>
+            <title>Contact</title>
         </Head>
         <h2>
-              Contact
+              Get in touch
             </h2> 
         
         
