@@ -14,9 +14,7 @@ export default function Contact() {
         <h2>
               Get in touch
             </h2> 
-            <ContactForm>
-                
-            </ContactForm>
+           
         
         
     </Layout>
