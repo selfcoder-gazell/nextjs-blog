@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function ContactForm() {
+export function ContactForm() {
 	const [loading, setLoading] = useState(false)
 	const [successMessage, setSuccessMessage] = useState('')
 
@@ -66,4 +66,4 @@ function ContactForm() {
 	)
 }
 
-export default ContactForm
+export default ContactForm;
