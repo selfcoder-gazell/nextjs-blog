@@ -15,7 +15,8 @@ export default function Home() {
         <title>Květa Mooney website</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Květa. I'm a software/web developer. </p>
+        <h1>The construction of this site has been put on hold while studying Google UX Design course.</h1>
+        <p>Hello, I'm Květa. </p>
         <p>
         "You've just landed on my personal site. In the ABOUT section, 
         you can find more about my recent journey into tech. 
@@ -33,7 +34,7 @@ export default function Home() {
           {/* Main content of the home page */}
         </main>
       </div>
-      <Link href="/posts/first-post">To First-post</Link>
+      {/* <Link href="/posts/first-post">To First-post</Link> */}
 
     </Layout>
   );
