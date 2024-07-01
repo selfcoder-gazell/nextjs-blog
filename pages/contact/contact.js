@@ -11,10 +11,10 @@ export default function Contact() {
         <Head>
             <title>Contact</title>
         </Head>
-        <h2>
-              Get in touch
-            </h2> 
-           
+        <h2>Get in touch</h2> 
+
+         <ContactForm>
+            </ContactForm>  
         
         
     </Layout>
