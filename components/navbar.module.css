@@ -1,9 +1,15 @@
+.navbar {
+  
+  flex-direction: row;
+  align-items: end;
+}
+
 .menu {
   /* list-style-type: none; */
   padding: 5rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; 
+  justify-content: space-around;
+   
   overflow: visible;
   z-index: 0;
 } 

@@ -10,7 +10,7 @@ const roboto = Roboto({
 const popins = Poppins ({
   weight: "400",
   style: "italic",
-  subsets: ["devanagari"],
+  subsets: ["latin"],
 });
 const iter = Inter ({
   weight: "400",
@@ -36,12 +36,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faUniversalAccess,
   faBullseye,
-  faBraille,
   faIdBadge,
   faLifeRing,
-  faClipboard,
   faMapSigns,
-  faAddressCard,
   faBook
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,7 +49,7 @@ const Navbar = () => {
     setClicked(!clicked);
   }
   return (
-    <nav>
+    <nav className={styles.navbar}> 
       
 
       

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbar from './navbar';
 // import styles from "./layout.module.css";
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
@@ -72,6 +73,7 @@ export default function Layout({ children, home }) {
           
           </>
         )}
+        <Navbar></Navbar>
       </header>
       <main>{children}</main>
       {/* {!home && (
