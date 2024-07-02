@@ -1,17 +1,37 @@
 /* replace this file content with the following more polished 
 styles for the layout and profile picture: */
-
 .container {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 3rem;
+  
+}
+
+.navbarContainer {
+  flex-direction: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  align-self: auto;
+  overflow: visible;
+  position:relative;
+
+}
+
+.navContainer {
+  display: flex;
+  margin: auto;
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 3rem;
+    
   }
 
-  .header {
+
+  
+  /* .header {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+  } */
   
   .backToHome {
     margin: 3rem 0 0;

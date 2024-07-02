@@ -1,7 +1,7 @@
-.navbar {
-  
+.navMenu {
   flex-direction: row;
   align-items: end;
+
 }
 
 .menu {
@@ -9,7 +9,6 @@
   padding: 5rem;
   display: flex;
   justify-content: space-around;
-   
   overflow: visible;
   z-index: 0;
 } 
@@ -17,6 +16,7 @@
     stroke: orange;
     stroke-width: 1.5; 
     fill: #44474d; 
+    
   }
   .hexagonIconOuter:hover,
   .hexagonIconOuter:focus {

@@ -22,7 +22,7 @@ import { useState } from 'react';
 //import Lik component 
 import Link from 'next/link';
 //import CSS module for styling
-import styles from './navbar.module.css';
+import styles from './navmenu.module.css';
 import utilStyles from '../styles/utils.module.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -42,14 +42,14 @@ import {
   faBook
 } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => {
+const navMenu = () => {
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
     setClicked(!clicked);
   }
   return (
-    <nav className={styles.navbar}> 
+    <nav className={styles.navMenu}> 
       
 
       
@@ -356,7 +356,7 @@ const Navbar = () => {
   );
 };
 
- export default Navbar;
+ export default navMenu;
 
 //  className={styles.container}>
 
