@@ -1,6 +1,10 @@
 // Finally, let's update the homepage.
 // Open pages/index.js and replace its content with:
+//import React (not mandatory in modern React versions but good practice)
 
+//import any necessary components from your project
+
+ 
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
@@ -14,8 +18,11 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
+        <siteTitle></siteTitle>
         <title>Květa Mooney website</title>
+        <meta name="Květa Mooney portfolio" content="Květa Mooney portfolio"/>
       </Head>
+      
       <section className={utilStyles.headingMd}>
         <h1>The construction of this site has been put on hold while studying Google UX Design course.</h1>
         <p>Hello, I'm Květa. </p>
@@ -29,13 +36,13 @@ export default function Home() {
         </p>
       </section>
       
-      <div>
+     
         
-        <main>
+        
         {/*<navMenu></navMenu>*/}
           {/* Main content of the home page */}
-        </main>
-      </div>
+       
+     
       {/* <Link href="/posts/first-post">To First-post</Link> */}
 
     </Layout>
