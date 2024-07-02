@@ -46,7 +46,7 @@ export default function Layout({ children, home }) {
 
       <Header></Header>
 
-        <header className={styles.navbarContainer}>
+        {/* <header className={styles.navbarContainer}>
           <div className={styles.navContainer}>
           {home ? (
             <>
@@ -86,7 +86,7 @@ export default function Layout({ children, home }) {
 
         </navMenu>
         </div>
-      </header>
+      </header> */}
       
       <main>{children}</main>
       {/* {!home && (

@@ -33,7 +33,7 @@ export default function About() {
         <Head>
             <title>About me</title>
         </Head>
-<Link href="/">
+{/* <Link href="/">
     <div className={styles.mainContainer}>
     
 
@@ -95,7 +95,7 @@ export default function About() {
    </div>
   
                  </div>
-                 </Link>
+                 </Link> */}
 
 
         <div>
@@ -114,11 +114,11 @@ export default function About() {
               It is scary to change a career at any age and I felt exactly that.
               Fear of change, failure, shame ... ect. IMPOSTER SYNDROM written all over.</p>
               <br></br>
-              I applied again and I got accepted in September 2023 - SUCCESS at last. 
+              <p> I applied again and I got accepted in September 2023 - SUCCESS at last. 
               Along with 90 like-minded individuals selected from a pool of over 3000 applications, 
               we delved straight into full-stack technologies. 
               We learned and worked in small groups of 4-6 during this intense 16 weeks long bootcamp.
-              
+              </p>
               <p><br></br>It felt as i was being a traveller in a foreign country without a map. 
               Feelings of disorientation at first, but as I explored and learned, 
               I started to recognize landmarks, understand the language, and find my way around. 
