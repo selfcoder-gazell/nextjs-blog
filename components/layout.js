@@ -13,7 +13,7 @@ import Link from 'next/link'; //import Link component
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
-
+import Footer from './footer';
 //   Third, open components/layout.js and replace its 
 //   content with the following code, 
 //   changing Your Name to an actual name:
@@ -45,6 +45,7 @@ export default function Layout({ children, home }) {
         </Head>
 
       <Header></Header>
+      
 
         {/* <header className={styles.navbarContainer}>
           <div className={styles.navContainer}>
@@ -94,6 +95,8 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )} */}
+
+<Footer></Footer>
     </section>
   );
 }
