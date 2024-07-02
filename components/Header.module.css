@@ -1,0 +1,49 @@
+/* styling of the outer header container with given class of navbar */
+:root {
+    --menu-backgr-color: rgb(118, 118, 118);
+}
+/*navbar should be a flex child as body is display flex*/
+.navbar {
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   height: auto;
+   overflow: visible;
+   position: relative;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 400;
+   color: black;
+   text-align: left;
+   background-color: var(--menu-backgr-color);
+
+}
+/* styling of container with img, h1 as well as all the links*/
+.container {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: auto;
+    height: auto;
+    max-width: 1200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+}
+/*styling a logo containing my img avatar and my h1 name*/
+.logoBrand {
+    display: block;
+    padding: 16px 0;
+    position: relative;
+    background-color: #000000;
+}
+/*styling a menu with all the nav links in it*/
+.navmenu {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    position: relative;
+}

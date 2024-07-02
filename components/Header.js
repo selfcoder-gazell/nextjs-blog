@@ -24,7 +24,7 @@ import Link from 'next/link';
 import styles from './navmenu.module.css';
 import utilStyles from '../styles/utils.module.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
-
+import Image from 'next/image'; //importing image from ???
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = true;
@@ -40,8 +40,6 @@ import {
   faMapSigns,
   faBook
 } from "@fortawesome/free-solid-svg-icons";
- 
-//import navMenu from './navmenu';
 
 const name = 'Květa Mooney';
 
@@ -49,15 +47,17 @@ const Header = () => {
     return (
         <header className={styles.navbar}>
             <div className={styles.container}>
-                <Image
+                <div className={styles.logoBrand}>
+                    <Image
                     priority
                     src="/image/profile.jpg"
                     className={utilStyles.borderCircle}
                     height={144}
                     width={144}
                     alt="profileimage"/>
-                <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            </div>
+                    <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                </div>
+            
 
             <div className={styles.navmenu}>
 
@@ -124,8 +124,8 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg">
               <path 
               d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-              className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              onClick={handleClick}
+              //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              //onClick={handleClick}
               fill="#1e2530">
 
 
@@ -180,8 +180,8 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg">
               <path 
               d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-              className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              onClick={handleClick}
+              //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              //onClick={handleClick}
               fill="#1e2530">
                 </path>
                 <svg 
@@ -272,8 +272,8 @@ const Header = () => {
             version="1.1" 
             xmlns="http://www.w3.org/2000/svg">
               <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-              className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              onClick={handleClick}
+              //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+              //onClick={handleClick}
               fill="#1e2530"></path>
 
 <svg 
@@ -358,6 +358,9 @@ const Header = () => {
                 </Link> 
     </ul>
     </div>
+
+    
+</div>
 
 
 

@@ -13,8 +13,8 @@ export default function Contact() {
         </Head>
         <h2>Get in touch</h2> 
 
-         <ContactForm>
-            </ContactForm>  
+         {/* <ContactForm>
+            </ContactForm>   */}
         
         
     </Layout>
