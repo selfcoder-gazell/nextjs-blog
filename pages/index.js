@@ -7,7 +7,8 @@ import utilStyles from '../styles/utils.module.css';
 //import Link component to be able to Link to another page
 import Link from "next/link";
 //import { navMenu } from '../components/navMenu';
-import navMenu from '../components/navMenu';
+
+//import navMenu from '../components/navMenu';
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
       <div>
         
         <main>
-        <navMenu></navMenu>
+        {/*<navMenu></navMenu>*/}
           {/* Main content of the home page */}
         </main>
       </div>

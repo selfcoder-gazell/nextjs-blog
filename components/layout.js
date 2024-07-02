@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import navMenu from './navMenu';
+
 //import { navMenu } from './navMenu';
 
 // import styles from "./layout.module.css";
@@ -80,7 +80,9 @@ export default function Layout({ children, home }) {
             </>
           )}
 
-        <navMenu></navMenu>
+        <navMenu>
+
+        </navMenu>
         </div>
       </header>
       
