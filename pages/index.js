@@ -10,9 +10,7 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 //import Link component to be able to Link to another page
 import Link from "next/link";
-//import { navMenu } from '../components/navMenu';
 
-//import navMenu from '../components/navMenu';
 
 export default function Home() {
   return (

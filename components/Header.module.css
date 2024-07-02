@@ -1,8 +1,8 @@
-/* styling of the outer header container with given class of navbar */
+/* styling of the outer header container with given class of navbar 
 :root {
     --menu-backgr-color: rgb(118, 118, 118);
 }
-/*navbar should be a flex child as body is display flex*/
+navbar should be a flex child as body is display flex */
 .navbar {
    display: block;
    margin: 0;
@@ -13,14 +13,13 @@
    position: relative;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-weight: 400;
-   color: black;
+   /*color: black;*/
    text-align: left;
-   background-color: var(--menu-backgr-color);
-
 }
 /* styling of container with img, h1 as well as all the links*/
 .container {
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
     padding: 0 30px;
     width: auto;
@@ -36,7 +35,7 @@
     display: block;
     padding: 16px 0;
     position: relative;
-    background-color: #000000;
+    background-color: rgb(118, 118, 199);
 }
 /*styling a menu with all the nav links in it*/
 .navmenu {
@@ -47,3 +46,96 @@
     height: auto;
     position: relative;
 }
+
+/* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
+ .navMenu {
+    flex-direction: row;
+    align-items: end;
+  }
+  
+  .menu {
+    
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    overflow: visible;
+    z-index: 0;
+  } 
+    .hexagonIconOuter path{
+      stroke: orange;
+      stroke-width: 1.5; 
+      fill: #44474d; 
+      
+    }
+    .hexagonIconOuter:hover,
+    .hexagonIconOuter:focus {
+      transition-duration: 800ms;
+        transform: scale(1.2);
+    }
+  /*
+  .hexagonIcon path {
+    stroke: orange; */
+     /* Outline color */
+    /* stroke-width: 0.4;  */
+    /* Outline thickness in pixels */
+    /* fill: #44474d; 
+  } */
+  
+  
+   .hexagonIcon:hover svg
+   {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+    filter: 
+    drop-shadow(0 0 0.4rem #FFBF00) ;
+    z-index: 3;
+  }
+  
+  .hexagonIcon:hover,
+  .hexagonIcon:focus {
+      transition-duration: 800ms;
+      transform: scale(1.2);
+      filter: 
+      drop-shadow(0 0 0.25rem #FFBF00)  
+  } 
+  
+  
+  /* 
+  .hexagonIcon:hover,
+  .hexagonIcon:focus {
+    
+    transition-duration: 800ms;
+      transform: scale(1.2);
+      filter: 
+      
+      drop-shadow(0 0 0.8rem #FFBF00) 
+     
+      drop-shadow(-5px -9px 0.001rem #Fd5e53) 
+     
+      drop-shadow(5px -9px 0.001rem #Fd5e53) 
+     
+      drop-shadow(-10px 0 0.001rem #FD5E53) 
+      
+      drop-shadow(10px 0 0.001rem #Fd5e53) 
+      
+      drop-shadow(-5px 9px 0.001rem #FD5E53) 
+     
+      drop-shadow(5px 9px 0.001rem rgb(125,0,125));
+      z-index: 0;
+  } */
+      /* clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); 
+      box-shadow: 
+  
+  }
+    
+  /* MyComponent.module.css */
+  
+  .icon:hover {
+    color: rgb(235, 125, 40);
+     filter: brightness(115%);
+     z-index: 2;
+  }
+  
+  .title:hover {
+    font-size: large;
+  }
