@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import navMenu from './navMenu';
+//import { navMenu } from './navMenu';
 
-import navMenu from './navmenu';
 // import styles from "./layout.module.css";
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';

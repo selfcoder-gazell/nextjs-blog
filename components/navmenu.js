@@ -356,7 +356,9 @@ const navMenu = () => {
   );
 };
 
- export default navMenu;
+export default navMenu;
+
+ //export default navMenu;
 
 //  className={styles.container}>
 
