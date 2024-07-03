@@ -1,19 +1,17 @@
 import Head from 'next/head';
 import Image from 'next/image'; //importing image from ???
 import React from 'react'; // importing react from react
-//import { navMenu } from './navMenu';
-import Header from './Header'; //importing header from component
-import footer from './footer'; //importing footer component
+import Header from './Header'; //importing header from components
 
-// import styles from "./layout.module.css";
 import styles from './layout.module.css'; //import layout specific styles
-import utilStyles from '../styles/utils.module.css'; //import styles for all pages
+//import styles for HTML elements all pages
+import utilStyles from '../styles/utils.module.css'; 
 import Link from 'next/link'; //import Link component
 //import the Font Awesome core styles and config
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
-import Footer from './footer';
+import Footer from './footer'; //importing footer components
 //   Third, open components/layout.js and replace its 
 //   content with the following code, 
 //   changing Your Name to an actual name:
