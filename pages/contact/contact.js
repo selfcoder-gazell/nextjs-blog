@@ -3,6 +3,8 @@ import Head from "next/head";
 import Script from "next/script";
 import Layout from "../../components/layout";
 import ContactForm from "../../components/ContactForm";
+import React from "react";
+import styles from './contact.module.css'
 
 export default function Contact() {
     return (
