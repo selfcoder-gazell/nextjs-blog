@@ -48,13 +48,8 @@ navbar should be a flex child as body is display flex */
 }
 
 /* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
- .navMenu {
-    flex-direction: row;
-    align-items: end;
-  }
-  
+ 
   .menu {
-    
     padding: 5rem;
     display: flex;
     justify-content: space-around;

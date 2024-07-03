@@ -4,7 +4,7 @@ Create a top-level styles directory and a global.css file.
 Add the following CSS inside styles/global.css. This code 
 resets some styles and changes the color of the a tag: */
 
-body {
+html, body {
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  padding: 2vw;
+  padding: 0.5vw 2vw;
   margin: 0;
 }
 
@@ -46,6 +46,10 @@ a:hover {
 
 ul {
   list-style-position: inside;
+}
+
+li {
+  list-style: none;
 }
 
 /* html,

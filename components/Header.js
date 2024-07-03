@@ -63,6 +63,7 @@ const Header = () => {
             <div className={styles.navmenu}>
 
                 <ul className={styles.menu}>
+                    <li>
                     <Link href="/">
                         <svg 
                         className={styles.hexagonIconOuter}
@@ -112,8 +113,10 @@ const Header = () => {
                         text-anchor="middle" 
                         fill="white">WELCOME/HOME</text>
           </svg>
-            </Link>
+            </Link></li>
 
+
+        <li>
           <Link href="/about/about">
 
             <svg 
@@ -167,6 +170,9 @@ const Header = () => {
                 fill="white">ABOUT</text>
             
                 </svg></Link>
+                </li>
+
+                <li>
 
           <Link href="/projects/project">
             
@@ -215,55 +221,52 @@ const Header = () => {
                 text-anchor="middle" 
                 fill="white">PROJECTS</text>
 
-                </svg></Link>
+                </svg></Link></li>
+            <li>
+                <Link href="/cv/cv">
+                    <svg 
+                        className={styles.hexagonIconOuter}
+                        viewBox="0 0 173.20508075688772 200" 
+                        height="200" 
+                        width="174" 
+                        version="1.1" 
+                        xmlns="http://www.w3.org/2000/svg">
+                    <path 
+                    d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
+                    // className={clicked ? styles.clickedIcon : styles.defaultIcon}
+                    // onClick={handleClick}
+                    fill="#1e2530"></path>
 
-          <Link href="/cv/cv">
-            <svg 
-            className={styles.hexagonIconOuter}
-            viewBox="0 0 173.20508075688772 200" 
-            height="200" 
-            width="174" 
-            version="1.1" 
-            xmlns="http://www.w3.org/2000/svg">
-              <path 
-              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-              // className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              // onClick={handleClick}
-              fill="#1e2530"></path>
-
-<svg 
-              className={styles.hexagonIcon}
-              x="12" 
-              y="13" 
-              width="159" 
-              height="183"
-              version="1.1"xmlns="http://www.w3.org/2000/svg"> 
+                    <svg 
+                        className={styles.hexagonIcon}
+                        x="12" 
+                        y="13" 
+                        width="159" 
+                        height="183"
+                        version="1.1"xmlns="http://www.w3.org/2000/svg"> 
 {/* <!-- Adjust width and height for the inner hexagon --> */}
-    <path 
-      d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
+                    <path 
+                    d="M75 0L150 43.30127018922193L150 129.9038105676658L75 173.20508075688772L0 129.9038105676658L0 43.30127018922193Z"
     //   <!-- Adjust the path for the smaller hexagon -->
-    >
-
-    </path>
+    ></path>
         
 
-              <FontAwesomeIcon
-               icon={faIdBadge}
-               x="49"
-                y="60"
-              width="50"
-              height="50"
-               />
-               </svg>
+                        <FontAwesomeIcon
+                            icon={faIdBadge}
+                            x="49"
+                            y="60"
+                            width="50"
+                            height="50"/>
+                    </svg>
 
-              <text 
-              className={styles.title}
-              x="50%" 
-              y="69%" 
-              dominant-baseline="middle" 
-              text-anchor="middle" 
-              fill="white">CV</text></svg></Link>
-
+                        <text 
+                        className={styles.title}
+                        x="50%" 
+                        y="69%" 
+                        dominant-baseline="middle" 
+                        text-anchor="middle" 
+                        fill="white">CV</text></svg></Link></li>
+<li>
           <Link href="/contact/contact">
             <svg 
             className={styles.hexagonIconOuter}
@@ -307,8 +310,9 @@ const Header = () => {
               y="69%" 
               dominant-baseline="middle" 
               text-anchor="middle" 
-              fill="white">CONTACT</text></svg></Link>
+              fill="white">CONTACT</text></svg></Link></li>
 
+            <li>
           <Link href="/blog/blog">
             <svg 
             className={styles.hexagonIconOuter}
@@ -356,7 +360,7 @@ const Header = () => {
                 text-anchor="middle" 
                 fill="white">BLOG</text>
                 </svg>
-                </Link> 
+                </Link> </li>
     </ul>
     </div>
 
