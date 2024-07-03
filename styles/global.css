@@ -7,6 +7,7 @@ resets some styles and changes the color of the a tag: */
 html, body {
   display: flex;
   flex-direction: column;
+  vertical-align: stretch;
   padding: 0;
   margin: 0;
   width: auto;
@@ -14,12 +15,19 @@ html, body {
   overflow: visible;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 14px;
+  color: #1b1b1b;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-  line-height: 1.5;
-  font-size: 1rem;
+  
+  /* font-size: 1rem; */
   text-align: left;
-  background-color: rgb(118, 118, 118);
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+  text-wrap: nowrap;
+  background-color: rgb(161, 160, 160);
+
 }
 
 p {
@@ -28,15 +36,16 @@ p {
 }
 
 * {
+  
   /* padding: 0;
   margin: 0; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* list-style: none; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 a {
-  color: inherit;
+  
   text-decoration: none;
 }
 
@@ -50,6 +59,7 @@ ul {
 
 li {
   list-style: none;
+  
 }
 
 /* html,

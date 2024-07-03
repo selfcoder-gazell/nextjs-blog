@@ -12,19 +12,23 @@ navbar should be a flex child as body is display flex */
    overflow: visible;
    position: relative;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-weight: 400;
+   font-weight: 200;
    /*color: black;*/
    text-align: left;
+   background-color: #898a8d;
+   box-shadow: 5px 2px 60px 0px;
+   border-radius: 0px 0px 15px 15px;
 }
 /* styling of container with img, h1 as well as all the links*/
 .container {
-    display: flex;
+    display: block;
     flex-direction: row;
-    margin: 0 auto;
-    padding: 0 30px;
+    margin: auto 0;
+    padding: 30px 0;
     width: auto;
     height: auto;
     max-width: 1200px;
+    position: static;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
     color: black;
@@ -34,6 +38,8 @@ navbar should be a flex child as body is display flex */
 .logoBrand {
     display: block;
     padding: 16px 0;
+    margin: 0;
+    overflow: visible;
     position: relative;
     background-color: rgb(118, 118, 199);
 }
@@ -48,13 +54,24 @@ navbar should be a flex child as body is display flex */
 }
 
 /* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
- 
-  .menu {
-    padding: 5rem;
-    display: flex;
-    justify-content: space-around;
+ .navmenu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: relative;
+ }
+   .menuLink {
+    padding: 5;
+    display: inline-block;
+    vertical-align: baseline;
+    width: auto;
+    height: auto;
     overflow: visible;
-    z-index: 0;
+    position: relative;
+    
   } 
     .hexagonIconOuter path{
       stroke: orange;

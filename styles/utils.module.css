@@ -35,7 +35,9 @@ rather than a method (e.g. global styles, CSS modules, Sass, etc).  */
   
   .borderCircle {
     border-radius: 9999px;
+    background-color: rgb(246, 186, 74);
   }
+  
   
   .colorInherit {
     color: inherit;
