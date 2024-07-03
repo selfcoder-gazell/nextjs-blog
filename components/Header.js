@@ -1,4 +1,5 @@
 import React from 'react'; 
+//import React, { Component } from 'react';
 //importing styles for letters
 import { Poppins, Roboto, Inter } from "next/font/google";
 const roboto = Roboto({
@@ -53,7 +54,7 @@ const Header = () => {
   // }
 
     return (
-        <header className={styles.navbar}>
+        <header className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.logoBrand}>
                     <Image
@@ -69,10 +70,10 @@ const Header = () => {
                 </div>
             
 
-                <div className={styles.navmenu}>
+                <div className={styles.nav}>
 
                 <ul>
-                    <li className={styles.menuLink}>
+                    <li className={styles.navLink}>
                     <Link href="/">
                         <svg 
                         className={styles.hexagonIconOuter}

@@ -3,23 +3,28 @@
     --menu-backgr-color: rgb(118, 118, 118);
 }
 navbar should be a flex child as body is display flex */
-.navbar {
-  display: block;
-   width: auto;
-   height: auto;
+.header {
+   width: 100%;
    overflow: visible;
-   position: relative;
-   
-   /*color: black;*/
-   text-align: left;
-   background-color: #898a8d;
+   position: sticky;
+   margin-top: 50px;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   outline: 6px dotted rgb(130, 43, 2);
+   gap: 2rem;
+   z-index: 100;
    box-shadow: 5px 2px 60px 0px;
    border-radius: 0px 0px 15px 15px;
 }
 /* styling of container with img, h1 as well as all the menu links*/
 .container {
-    display: block;
-    margin: 0px auto 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
     padding: 0px 30px 0px;
     width: auto;
     height: auto;
@@ -28,37 +33,33 @@ navbar should be a flex child as body is display flex */
     position: static;
     color: black;
     text-align: left;
-    background-color: rgb(255, 255, 255);
+    outline: 2px solid rgb(11, 35, 189);
 }
 /*styling a logo containing my img avatar and my h1 name*/
 .logoBrand {
-    display: block;
     padding: 16px 0;
     position: relative;
-    float: left;
-    background-color: rgb(118, 118, 199);
+    outline: 2px solid lime;
+    
 }
 /*styling a menu with all the nav links in it*/
-.navmenu {
-    display: block;
+.nav {
+    display: flex;
+    gap: 10px;
     padding: 1rem;
     width: auto;
     height: auto;
     overflow: visible;
-    position: relative;
-    float: right;
+    outline: 4px solid red;
 }
 
 /* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
  
-   .menuLink {
-   
-    display: inline-block;
+   .navLink {
     padding: 10px;
     margin: 5px;
     vertical-align: baseline;
     position: relative;
-    
   } 
     .hexagonIconOuter path{
       stroke: orange;
