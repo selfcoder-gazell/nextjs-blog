@@ -1,4 +1,4 @@
-.footer {
+.footerWrapper {
     display: block;
     margin-top: auto;
     width: 100%;
@@ -15,9 +15,12 @@
     background-color: blue;
 }
 
-.links {
-    display: inline-block;
-    width: 30%;
-    height:15px;
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 40%;
+    height:20px;
+    margin-bottom: 1vw;
     background-color: aquamarine;
 }

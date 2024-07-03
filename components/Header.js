@@ -45,6 +45,13 @@ import {
 const name = 'Květa Mooney';
 
 const Header = () => {
+
+  //   const [clicked, setClicked] = useState(false);
+    
+  //      const handleClick = () => {
+  //     setClicked(!clicked);
+  // }
+
     return (
         <header className={styles.navbar}>
             <div className={styles.container}>
@@ -75,8 +82,8 @@ const Header = () => {
 
                             <path 
                             d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-                            // className={clicked ? styles.clickedIcon : styles.defaultIcon}
-                            // onClick={handleClick}
+                            //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+                            //onClick={handleClick}
                             fill="#1e2530">
 
                             </path>
@@ -233,8 +240,8 @@ const Header = () => {
                         xmlns="http://www.w3.org/2000/svg">
                     <path 
                     d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" 
-                    // className={clicked ? styles.clickedIcon : styles.defaultIcon}
-                    // onClick={handleClick}
+                    //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+                    //onClick={handleClick}
                     fill="#1e2530"></path>
 
                     <svg 
