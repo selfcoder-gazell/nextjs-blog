@@ -4,76 +4,59 @@
 }
 navbar should be a flex child as body is display flex */
 .navbar {
-   display: block;
-   margin: 0;
-   padding: 0;
+  display: block;
    width: auto;
    height: auto;
    overflow: visible;
    position: relative;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-weight: 200;
+   
    /*color: black;*/
    text-align: left;
    background-color: #898a8d;
    box-shadow: 5px 2px 60px 0px;
    border-radius: 0px 0px 15px 15px;
 }
-/* styling of container with img, h1 as well as all the links*/
+/* styling of container with img, h1 as well as all the menu links*/
 .container {
-    display: flex;
-    flex-direction: row;
-    
-    margin: 0 auto;
-    padding: 30px 0;
+    display: block;
+    margin: 0px auto 0px;
+    padding: 0px 30px 0px;
     width: auto;
     height: auto;
-    max-width: 1400px;
+    max-width: 1600px;
+    overflow: visible;
     position: static;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
     color: black;
     text-align: left;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 /*styling a logo containing my img avatar and my h1 name*/
 .logoBrand {
     display: block;
-    justify-content: flex-start;
     padding: 16px 0;
-    margin: 0;
-    overflow: visible;
     position: relative;
+    float: left;
     background-color: rgb(118, 118, 199);
 }
 /*styling a menu with all the nav links in it*/
 .navmenu {
     display: block;
-    padding: 0px;
-    margin: 0px;
-    width: auto;
-    height: auto;
-    position: relative;
-}
-
-/* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
- .navmenu {
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  position: relative;
- }
-   .menuLink {
-    padding: 0;
-    margin: 5px;
-    display: inline-block;
-    vertical-align: baseline;
+    padding: 1rem;
     width: auto;
     height: auto;
     overflow: visible;
+    position: relative;
+    float: right;
+}
+
+/* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
+ 
+   .menuLink {
+   
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    vertical-align: baseline;
     position: relative;
     
   } 
@@ -115,7 +98,15 @@ navbar should be a flex child as body is display flex */
       drop-shadow(0 0 0.25rem #FFBF00)  
   } 
   
+  .icon:hover {
+    color: rgb(235, 125, 40);
+     filter: brightness(115%);
+     z-index: 2;
+  }
   
+  .title:hover {
+    font-size: large;
+  }
   /* 
   .hexagonIcon:hover,
   .hexagonIcon:focus {
@@ -145,13 +136,3 @@ navbar should be a flex child as body is display flex */
   }
     
   /* MyComponent.module.css */
-  
-  .icon:hover {
-    color: rgb(235, 125, 40);
-     filter: brightness(115%);
-     z-index: 2;
-  }
-  
-  .title:hover {
-    font-size: large;
-  }

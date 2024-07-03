@@ -22,7 +22,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 //import CSS module for styling
 import styles from './Header.module.css'
-//import styles from './navmenu.module.css';
+
 import utilStyles from '../styles/utils.module.css';
 //import { library } from '@fortawesome/fontawesome-svg-core';
 import Image from 'next/image'; //importing image from ???
@@ -57,17 +57,19 @@ const Header = () => {
             <div className={styles.container}>
                 <div className={styles.logoBrand}>
                     <Image
-                    priority
+                    
                     src="/image/profile.jpg"
                     className={utilStyles.borderCircle}
                     height={144}
                     width={144}
-                    alt="profileimage"/>
+                    alt="profileimage"
+                    loading="lazy"
+                    />
                     <h1 className={utilStyles.heading2Xl}>{name}</h1>
                 </div>
             
 
-            <div className={styles.navmenu}>
+                <div className={styles.navmenu}>
 
                 <ul>
                     <li className={styles.menuLink}>
@@ -119,28 +121,25 @@ const Header = () => {
                         dominantBaseline="middle" 
                         textAnchor="middle" 
                         fill="white">WELCOME/HOME</text>
-          </svg>
-            </Link></li>
+                        </svg>
+                    </Link></li>
 
 
-        <li className={styles.menuLink}>
-          <Link href="/about/about">
+                    <li className={styles.menuLink}>
+                      <Link href="/about/about">
 
-            <svg 
-            className={styles.hexagonIconOuter}
-            viewBox="0 0 173.20508075688772 200" 
-            height="200" 
-            width="174" 
-            version="1.1" 
-            xmlns="http://www.w3.org/2000/svg">
-              <path 
-              d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-              //className={clicked ? styles.clickedIcon : styles.defaultIcon}
-              //onClick={handleClick}
-              fill="#1e2530">
-
-
-
+                      <svg 
+                      className={styles.hexagonIconOuter}
+                      viewBox="0 0 173.20508075688772 200" 
+                      height="200" 
+                      width="174" 
+                      version="1.1" 
+                      xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          //className={clicked ? styles.clickedIcon : styles.defaultIcon}
+                          //onClick={handleClick}
+                          fill="#1e2530">
                 
                 </path>
 
