@@ -116,8 +116,8 @@ const Header = () => {
                         className={styles.title}
                         x="50%" 
                         y="69%" 
-                        dominant-baseline="middle" 
-                        text-anchor="middle" 
+                        dominantBaseline="middle" 
+                        textAnchor="middle" 
                         fill="white">WELCOME/HOME</text>
           </svg>
             </Link></li>
@@ -172,8 +172,8 @@ const Header = () => {
                 className={styles.title}
                 x="50%" 
                 y="69%" 
-                dominant-baseline="middle" 
-                text-anchor="middle" 
+                dominantBaseline="middle" 
+                textAnchor="middle" 
                 fill="white">ABOUT</text>
             
                 </svg></Link>
@@ -224,8 +224,8 @@ const Header = () => {
                 className={styles.title}
                 x="50%" 
                 y="69%" 
-                dominant-baseline="middle" 
-                text-anchor="middle" 
+                dominantBaseline="middle" 
+                textAnchor="middle" 
                 fill="white">PROJECTS</text>
 
                 </svg></Link></li>
@@ -270,8 +270,8 @@ const Header = () => {
                         className={styles.title}
                         x="50%" 
                         y="69%" 
-                        dominant-baseline="middle" 
-                        text-anchor="middle" 
+                        dominantBaseline="middle" 
+                        textAnchor="middle" 
                         fill="white">CV</text></svg></Link></li>
 <li>
           <Link href="/contact/contact">
@@ -315,8 +315,8 @@ const Header = () => {
               className={styles.title}
               x="50%" 
               y="69%" 
-              dominant-baseline="middle" 
-              text-anchor="middle" 
+              dominantBaseline="middle" 
+              textAnchor="middle" 
               fill="white">CONTACT</text></svg></Link></li>
 
             <li>
@@ -363,8 +363,8 @@ const Header = () => {
                 className={styles.title}
                 x="50%" 
                 y="69%" 
-                dominant-baseline="middle" 
-                text-anchor="middle" 
+                dominantBaseline="middle" 
+                textAnchor="middle" 
                 fill="white">BLOG</text>
                 </svg>
                 </Link> </li>

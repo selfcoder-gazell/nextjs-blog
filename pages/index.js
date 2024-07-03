@@ -6,18 +6,18 @@
 
  
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+//import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-
+import Layout from '../components/layout';
 //import Link component to be able to Link to another page
 import Link from "next/link";
 
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
-        <siteTitle></siteTitle>
+        {/* <siteTitle></siteTitle> */}
         <title>Květa Mooney website</title>
         <meta name="Květa Mooney portfolio" content="Květa Mooney portfolio"/>
       </Head>
