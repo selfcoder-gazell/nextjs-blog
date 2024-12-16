@@ -1,5 +1,9 @@
   /* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
- 
+ .InnerHexagon {
+    fill: #44474d;
+    stroke:#FFBF00;
+    stroke-width: 3.5;
+ }
   .navLink {
     padding: 10px;
     margin: 5px;

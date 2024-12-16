@@ -60,6 +60,7 @@ const OuterHexagon = ({ fill, children }) => {
       style={{ position: 'relative', display: 'inline-block' }}
     >
       <polygon
+      className={styles.OuterHexagon}
         points="100,10 190,50 190,150 100,190 10,150 10,50"
         fill={fill}
       />

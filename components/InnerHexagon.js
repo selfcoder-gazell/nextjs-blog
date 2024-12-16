@@ -43,6 +43,7 @@ import styles from './InnerHexagon.module.css';
 const InnerHexagon = ({ fill }) => {
   return (
     <polygon
+    className={styles.InnerHexagon}
       points="100,30 170,60 170,140 100,170 30,140 30,60"
       fill={fill}
     />
