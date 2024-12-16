@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image'; //importing image from ???
 import React from 'react'; // importing react from react
 import Header from './Header'; //importing header from components
+import Navbar from './NavBar';
 
 import styles from './layout.module.css'; //import layout specific styles
 //import styles for HTML elements all pages
@@ -42,6 +43,7 @@ export default function Layout({ children, home }) {
         </Head>
 
       <Header />
+      <Navbar></Navbar>
       
 
         {/* <header className={styles.navbarContainer}>

@@ -1,0 +1,25 @@
+.hexagonIconOuter {
+  fill: #1e2530; /* Ensure this matches */
+  filter: drop-shadow(0 0 10px #00ff99); /* Add glow effect */
+  transition: filter 0.3s ease-in-out;
+}
+
+.hexagonIconOuter:hover {
+  filter: drop-shadow(0 0 20px #00ff99); /* Increase glow on hover */
+}
+
+.hexagonIcon {
+  fill: #4CAF50; /* Ensure this matches */
+}
+
+.hexagonIcon:hover {
+  fill: #81C784; /* Change color on hover */
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  fill: white;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}

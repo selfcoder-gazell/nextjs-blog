@@ -1,0 +1,85 @@
+.hexagonIconOuter {
+    fill: #44474d;
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .hexagonIconOuter:hover {
+    filter: drop-shadow(0 0 15px #ffbf00);
+  }
+  
+  .hexagonIcon {
+    fill: #44474d;
+  }
+  
+ 
+/* COPY OF THE STYLING FROM THE DELETED NAVMENU CSS FILE */
+ 
+
+    .hexagonIconOuter path{
+      stroke: orange;
+      stroke-width: 1.5; 
+      fill: #44474d; 
+      
+    }
+    .hexagonIconOuter:hover,
+    .hexagonIconOuter:focus {
+      transition-duration: 800ms;
+        transform: scale(1.2);
+    }
+  /*
+  .hexagonIcon path {
+    stroke: orange; */
+     /* Outline color */
+    /* stroke-width: 0.4;  */
+    /* Outline thickness in pixels */
+    /* fill: #44474d; 
+  } */
+  
+  
+   .hexagonIcon:hover svg
+   {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+    filter: 
+    drop-shadow(0 0 0.4rem #FFBF00) ;
+    z-index: 3;
+  }
+  
+  .hexagonIcon:hover,
+  .hexagonIcon:focus {
+      transition-duration: 800ms;
+      transform: scale(1.2);
+      filter: 
+      drop-shadow(0 0 0.25rem #FFBF00)  
+  } 
+  
+  .icon:hover {
+    color: rgb(235, 125, 40);
+     filter: brightness(115%);
+     z-index: 2;
+  }
+  
+  .title:hover {
+    font-size: large;
+  }
+
+  /* Shared text and icon styles */
+  .icon {
+    position: absolute;
+    top: 60px;
+    left: 62px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .title {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: white;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  
+  
+  
