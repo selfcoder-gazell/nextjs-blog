@@ -41,9 +41,12 @@ export default function Layout({ children, home }) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
+  
 
-      <Header />
-      {/* <Navbar></Navbar> */}
+      <Header>
+        <Navbar></Navbar>
+      </Header>
+      
       
 
         {/* <header className={styles.navbarContainer}>
