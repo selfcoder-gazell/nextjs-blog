@@ -100,7 +100,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       {navItems.map((item, index) => {
-        console.log('Nav Item Link:', item.link);
+        // console.log('Nav Item Link:', item.link);
         return (
           <HexagonIcon
             key={index}

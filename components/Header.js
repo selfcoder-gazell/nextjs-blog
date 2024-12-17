@@ -21,13 +21,23 @@ const iter = Inter ({
 import React from 'react';
 import Navbar from './NavBar';
 import styles from './Header.module.css';
-// import Image from 'next/image'; //importing image from ???
+import Image from 'next/image'; //importing image from ???
+import utilStyles from '../styles/utils.module.css';
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.avatarContainer}>
         {/* Avatar Image */}
+        <Image
+                    
+          src="/image/profile.jpg"
+          className={utilStyles.borderCircle}
+          height={144}
+          width={144}
+          alt="profileimage"
+          loading="lazy"
+        />
         <img src="/profile.jpg" alt="Avatar" className={styles.avatar} />
       </div>
       <Navbar />
