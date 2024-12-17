@@ -1,10 +1,68 @@
 .navbar {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem; /* Spacing between hexagonal icons */
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    grid-auto-flow: row; /* Stack icons vertically */
+    justify-content: flex-start; /* Align to the side */
+  }
+}
+
+/* Style for each Hexagon Icon */
+.hexagonIcon {
+  position: relative;
+  cursor: pointer;
+  width: 100px; /* Adjust size */
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hexagonIcon:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Tooltip for Icon Titles */
+.tooltip {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.hexagonIcon:hover .tooltip,
+.hexagonIcon:focus .tooltip {
+  opacity: 1;
+}
+
+
+/* .navbar {
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #a09e9e;
+    background-color: var(--nav-bg);
   }
 
+  .navbar {
+    grid-area: header;
+  }
+
+  .navItems {
+
+  } */
   
   

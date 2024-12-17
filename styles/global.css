@@ -3,20 +3,16 @@
 Create a top-level styles directory and a global.css file.
 Add the following CSS inside styles/global.css. This code 
 resets some styles and changes the color of the a tag: */
-
-html, body {
-  display: flex;
-  flex-direction: column;
-  vertical-align: stretch;
-  padding: 0;
-  margin: 0;
-  width: auto;
-  height: auto;
-  overflow: visible;
+:root {
+  --yellow-orange-color: #FFBF00;
+  --background-all: rgb(161, 160, 160);
+  --hexagon-in: #44474d;
+  --text-color: #333;
+  --nav-bg: #a09e9e;
+}
+html {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  color: #1b1b1b;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   /* font-size: 1rem; */
@@ -25,7 +21,17 @@ html, body {
   text-decoration: none;
   letter-spacing: normal;
   text-wrap: nowrap;
-  background-color: rgb(161, 160, 160);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1.25rem;
+  background: var(--background-all);
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  gap: 2rem;
 }
 
 p {

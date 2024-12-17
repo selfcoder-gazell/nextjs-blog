@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
         </Head>
 
       <Header />
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       
 
         {/* <header className={styles.navbarContainer}>

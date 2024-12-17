@@ -80,6 +80,7 @@ import {
   faMapSigns,
   faBook,
 } from '@fortawesome/free-solid-svg-icons';
+// import styles from 'styles/global.css'
 import styles from './Navbar.module.css';
 
 const navItems = [
