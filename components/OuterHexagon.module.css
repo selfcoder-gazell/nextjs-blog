@@ -4,7 +4,7 @@
   } */
   .OuterHexagon {
     fill: #44474d;
-    stroke:#FFBF00;
+    stroke: rgb(235, 125, 40);
     stroke-width: 1.5;
   }
 
@@ -19,7 +19,7 @@
  /* styling of the actuall icon in the middle of the hexagon icon */
 
     .hexagonIconOuter path{
-      stroke: orange;
+      stroke: rgb(235, 125, 40);
       stroke-width: 1.5; 
       fill: #44474d; 
     }
@@ -44,7 +44,7 @@
     transition-duration: 200ms;
     transform: scale(1.2);
     filter: 
-    drop-shadow(0 0 0.1rem #FFBF00) ;
+    drop-shadow(0 0 0.1rem rgb(235, 125, 40)) ;
     z-index: 3;
   }
   

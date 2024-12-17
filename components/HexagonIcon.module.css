@@ -38,6 +38,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 5px rgb(235, 125, 40)) drop-shadow(0 0 10px rgb(235, 125, 40));
   }
 
   .icon:hover,
@@ -45,7 +46,7 @@
     color: rgb(235, 125, 40);
     filter: brightness(115%);
     filter:
-    drop-shadow(0 0 0.25rem #FFBF00);
+    drop-shadow(0 0 0.25rem rgb(235, 125, 40));
   }
   
   .title {
@@ -70,6 +71,30 @@
     opacity: 0.8;
   }
   
+  /* HexagonIcon.module.css */
+.hexagonIcon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.hexagonIcon:hover {
+  transform: scale(1.1);
+}
+/* HexagonIcon.module.css */
+.hexagonIcon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.active {
+  filter:
+  drop-shadow(0 0 0.4rem #FFBF00);
+  transform: scale(1.1);
+}
+
+/* .active {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.6); /* Glowing effect */
+  /* transform: scale(1.1); */
 
   /* .icon {
     position: absolute;
