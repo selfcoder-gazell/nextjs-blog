@@ -2,7 +2,7 @@
  .InnerHexagon {
     fill: #44474d;
     stroke:#FFBF00;
-    stroke-width: 3.5;
+    stroke-width: 2;
  }
   .navLink {
     padding: 10px;
@@ -16,6 +16,10 @@
       fill: #44474d; 
       
     }
+    .InnerHexagon:hover {
+        filter: drop-shadow(0 0 10px orange);
+    }
+
     .hexagonIconOuter:hover,
     .hexagonIconOuter:focus {
       transition-duration: 800ms;

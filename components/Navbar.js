@@ -42,11 +42,11 @@ import styles from './Navbar.module.css';
 
 const navItems = [
   { label: 'HOME', icon: faUniversalAccess, outerFill: '#3498db', innerFill: '#2980b9', link: '/' },
-  { label: 'ABOUT', icon: faBullseye, outerFill: '#e74c3c', innerFill: '#c0392b', link: './about.js' },
-  { label: 'PROJECTS', icon: faIdBadge, outerFill: '#2ecc71', innerFill: '#27ae60', link: './projects/projects' },
-  { label: 'CV', icon: faLifeRing, outerFill: '#f1c40f', innerFill: '#f39c12', link: './cv/cv' },
-  { label: 'CONTACT', icon: faMapSigns, outerFill: '#44474d', innerFill: '#44474d', link: './contact/contact' },
-  { label: 'BLOG', icon: faBook, outerFill: '#44474d', innerFill: '#44474d', link: './blog/blog' },
+  { label: 'ABOUT', icon: faBullseye, outerFill: '#e74c3c', innerFill: '#c0392b', link: '/about/about' },
+  { label: 'PROJECTS', icon: faIdBadge, outerFill: '#2ecc71', innerFill: '#27ae60', link: '/projects/projects' },
+  { label: 'CV', icon: faLifeRing, outerFill: '#f1c40f', innerFill: '#f39c12', link: '/cv/cv' },
+  { label: 'CONTACT', icon: faMapSigns, outerFill: '#44474d', innerFill: '#44474d', link: '/contact/contact' },
+  { label: 'BLOG', icon: faBook, outerFill: '#44474d', innerFill: '#44474d', link: '/blog/blog' },
 ];
 
 const Navbar = () => {

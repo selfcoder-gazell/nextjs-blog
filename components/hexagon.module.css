@@ -4,17 +4,17 @@
   transition: filter 0.3s ease-in-out;
 }
 
-.hexagonIconOuter:hover {
+/* .hexagonIconOuter:hover {
   filter: drop-shadow(0 0 20px #00ff99); /* Increase glow on hover */
-}
 
-.hexagonIcon {
+
+/* .hexagonIcon {
   fill: #4CAF50; /* Ensure this matches */
-}
 
-.hexagonIcon:hover {
+
+/* .hexagonIcon:hover {
   fill: #81C784; /* Change color on hover */
-}
+
 
 .title {
   font-family: Arial, sans-serif;

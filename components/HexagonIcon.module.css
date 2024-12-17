@@ -32,19 +32,28 @@
   } */
   
   .icon {
-    font-size: 24px;
-    color: white;
+    /* font-size: 24px; */
+    color: rgb(235, 125, 40);
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .icon:hover,
+  .icon:focus-visible {
+    color: rgb(235, 125, 40);
+    filter: brightness(115%);
+    filter:
+    drop-shadow(0 0 0.25rem #FFBF00);
+  }
   
   .title {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: lighter;
     text-anchor: middle;
     text-transform: uppercase;
+    dominant-baseline: middle;
   }
   .link {
     display: inline-block;
@@ -52,6 +61,11 @@
     color: inherit;
     position: relative;
   }
+
+  .title:hover {
+    font-size: large;
+  }
+
   .link:hover {
     opacity: 0.8;
   }

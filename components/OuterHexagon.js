@@ -54,8 +54,8 @@ const OuterHexagon = ({ fill, children }) => {
     <svg
     className={styles.hexagonIconOuter}
       viewBox="0 0 200 200"
-      width="100"
-      height="100"
+      width="180"
+      height="180"
       xmlns="http://www.w3.org/2000/svg"
       style={{ position: 'relative', display: 'inline-block' }}
     >

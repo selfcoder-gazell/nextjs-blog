@@ -78,12 +78,16 @@ const HexagonIcon = ({ outerFill, innerFill, label, icon, link }) => {
         <FontAwesomeIcon
           icon={icon}
           className={styles.icon}
-          style={{ position: 'absolute', top: '60px', left: '62px' }}
+          width={50}
+          height={50}
+          x="49"
+          y="60"
+          // style={{ position: 'absolute', top: '49px', left: '60px' }}
         />
         <text
           className={styles.title}
           x="50%"
-          y="80%"
+          y="70%"
           dominantBaseline="middle"
           textAnchor="middle"
           fill="white"
