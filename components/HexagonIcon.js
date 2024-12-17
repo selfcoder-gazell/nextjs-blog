@@ -72,7 +72,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './HexagonIcon.module.css';
 
 const HexagonIcon = ({ outerFill, innerFill, label, icon, link, isActive }) => {
-  console.log('Is Active:', label, isActive); // Debugging active state
+  // console.log('Is Active:', label, isActive); // Debugging active state
 
   return (
     <Link href={link} aria-current={isActive ? 'page' : undefined}>
