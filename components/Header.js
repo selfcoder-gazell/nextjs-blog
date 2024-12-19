@@ -38,7 +38,6 @@ const Header = () => {
           alt="profileimage"
           loading="lazy"
         />
-        <img src="/profile.jpg" alt="Avatar" className={styles.avatar} />
       </div>
       <Navbar />
     </header>

@@ -21,7 +21,7 @@ export const siteTitle = 'Next.js Kveta M. page';
 //     return <div className={styles.container}>{children}</div>;
 //   }
 //the component children and home are rendered in this function Layout
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
 
       <section className={styles.container}>
@@ -85,12 +85,6 @@ export default function Layout({ children, home }) {
       </header> */}
       
       <main>{children}</main>
-      {/* {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )} */}
-
 <Footer></Footer>
     </section>
   );
