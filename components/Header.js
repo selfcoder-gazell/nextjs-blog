@@ -18,7 +18,7 @@ const iter = Inter ({
 });
 
 import React from 'react';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import styles from './Header.module.css';
 import Image from 'next/image'; //importing image from ???
 import utilStyles from '../styles/utils.module.css';

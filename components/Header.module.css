@@ -4,24 +4,14 @@
 }
 navbar should be a flex child as body is display flex */
 
-
 .header {
-  display: grid;
-  grid-template-columns: auto 1fr; /* Avatar and Navbar */
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem;
   background-color: #f8f9fa; /* Example background */
   transition: all 0.3s ease-in-out;
 }
-
-/* Responsive for small screens */
-@media (max-width: 768px) {
-  .header {
-    grid-template-columns: 1fr; /* Stack avatar and navbar vertically */
-    grid-template-rows: auto auto;
-  }
-}
-
 .avatarContainer {
   display: flex;
   justify-content: center;
@@ -34,7 +24,13 @@ navbar should be a flex child as body is display flex */
   border-radius: 50%; /* Circular avatar */
   border: 2px solid #44474d; /* Example border */
 }
-
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr; /* Stack avatar and navbar vertically */
+    grid-template-rows: auto auto;
+  }
+}
 /* .header {
    width: 100%;
    overflow: visible;

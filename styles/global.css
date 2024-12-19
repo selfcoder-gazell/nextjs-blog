@@ -24,14 +24,14 @@ html {
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
   font-size: 1.25rem;
   background: var(--background-all);
   color: var(--text-color);
   display: grid;
-  grid-template-columns: 20rem 1fr;
-  gap: 2rem;
+  grid-template-columns: 15rem 1fr;
+  gap: 1.5rem;
+  min-height: 100vh;
 }
 
 p {

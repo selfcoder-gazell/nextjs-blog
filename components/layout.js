@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 
       <section className={styles.container}>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          {/* <link rel="icon" href="/favicon.ico" /> */}
           <meta
           lang="en"
           name="description"
